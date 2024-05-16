@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL DON LLORENS"
+collections: ["bcil-previstos-cbp"]
 coordinates:
   - group1:
     - [1.460622659990355, 42.357848342364065]
