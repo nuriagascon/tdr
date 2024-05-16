@@ -128,6 +128,16 @@
                 map.getPane(name).style.zIndex = 407;
                 map.getPane(name).style["mix-blend-mode"] = "normal";
                 break;
+            case "patrimoni-arqueologic-i-paleontologic":
+                map.createPane(name);
+                map.getPane(name).style.zIndex = 403;
+                map.getPane(name).style["mix-blend-mode"] = "normal";
+                break;
+            case "patrimoni-arquitectonic":
+                map.createPane(name);
+                map.getPane(name).style.zIndex = 404;
+                map.getPane(name).style["mix-blend-mode"] = "normal";
+                break;
         }
     }
 
@@ -187,6 +197,34 @@
                     fill: true,
                     fillOpacity: 1,
                     fillColor: "rgba(151,124,184,1.0)",
+                    interactive: true,
+                }
+            case "patrimoni-arqueologic-i-paleontologic":
+                return {
+                    pane: name,
+                    opacity: 1,
+                    color: "rgba(35,35,35,1.0)",
+                    dashArray: "",
+                    lineCap: "butt",
+                    lineJoin: "miter",
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 0.5,
+                    fillColor: "rgba(241,253,6,1.0)",
+                    interactive: true,
+                }
+            case "patrimoni-arquitectonic":
+                return {
+                    pane: name,
+                    opacity: 1,
+                    color: "rgba(35,35,35,1.0)",
+                    dashArray: "",
+                    lineCap: "butt",
+                    lineJoin: "miter",
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 0.7,
+                    fillColor: "rgba(171,138,20,1.0)",
                     interactive: true,
                 };
         }

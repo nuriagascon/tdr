@@ -32,3 +32,8 @@ layout: home
         {% endfor %}
     {%endfor%}
 {% endleaflet_map %}
+{% for collection in site.collections %}
+{% for place in site[collection.label] %}
+{{ place.title | slugify }}
+        {% endfor %}
+    {%endfor%}

@@ -32,16 +32,16 @@ github_username:  jekyll
 collections:
   bcil-existents:
     output: true
-    permalink: /bcil-existents/:title
   bcil-previstos-cbp:
     output: true
-    permalink: /bcil-previstos-cbp/:title
   bcin-existents:
     output: true
-    permalink: /bcin-existents/:title
   bcin-previstos-cbp:
     output: true
-    permalink: /bcin-previstos-cbp/:title
+  patrimoni-arqueologic-i-paleontologic:
+    output: true
+  patrimoni-arquitectonic:
+    output: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
