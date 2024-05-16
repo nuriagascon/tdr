@@ -8,7 +8,7 @@ module Jekyll
         collection.docs.each do |doc|
           custom_title = doc.data['title']
           slugified_title = Jekyll::Utils.slugify(custom_title)
-          doc.data['permalink'] = "/#{name}/#{slugified_title}/"
+          doc.data['permalink'] = "/#{slugified_title}/"
         end
       end
     end
