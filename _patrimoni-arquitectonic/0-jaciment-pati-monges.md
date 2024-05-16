@@ -1,6 +1,7 @@
 ---
 layout: test
-title:  "PATI DE LES MONGES"
+title:  "JACIMENT DEL PATI DE LES MONGES"
+collections: ["patrimoni-arqueologic-i-paleontologic", "bcil-existents"]
 coordinates:
   - group1:
     - [1.45947309660072, 42.358708240337229]
