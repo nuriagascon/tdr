@@ -109,24 +109,23 @@
     function _createPane(map, name) {
         switch (name){
             case "bcil-existents":
-                map.createPane("pane_bcil_existents");
-                map.getPane("pane_bcil_existents").style.zIndex = 408;
-                map.getPane("pane_bcil_existents").style["mix-blend-mode"] = "normal";
+                map.createPane(name);
+                map.getPane(name).style.zIndex = 408;
+                map.getPane(name).style["mix-blend-mode"] = "normal";
                 break;
             case "bcil-previstos-cbp":
-                map.createPane("pane_bcil_previstos");
-                map.getPane("pane_bcil_previstos").style.zIndex = 405;
-                map.getPane("pane_bcil_previstos").style["mix-blend-mode"] = "normal";
+                map.createPane(name);
+                map.getPane(name).style.zIndex = 405;
+                map.getPane(name).style["mix-blend-mode"] = "normal";
                 break;
         }
     }
 
     function _style(name) {
-        console.log(name);
         switch (name){
             case "bcil-existents":
                 return {
-                    pane: "pane_bcil_existents",
+                    pane: name,
                     opacity: 1,
                     color: "rgba(35,35,35,1.0)",
                     dashArray: "",
@@ -140,7 +139,7 @@
                 }
             case "bcil-previstos-cbp":
                 return {
-                    pane: "pane_bcil_previstos",
+                    pane: name,
                     opacity: 1,
                     color: "rgba(35,35,35,1.0)",
                     dashArray: "",
@@ -160,7 +159,10 @@
             onEachFeature: _onEachFeature,
             style: _style(leafletItem.value.properties.pane)
         });
-        _createPane(map, leafletItem.value.properties.pane);
+        if(map.getPane(leafletItem.value.properties.pane) == null){
+            console.log("Pane with name '"+leafletItem.value.properties.pane+"' not found, creating one");
+            _createPane(map, leafletItem.value.properties.pane);
+        }
         layers = geojson.getLayers();
         for (var i = 0; i < layers.length; i++) {
             var geom = layers[i].feature.geometry;
