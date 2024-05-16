@@ -2,28 +2,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{page.title}}</title>
+    <title>{{ page.title }}</title>
 </head>
 <body>
 {% capture geojson %}
     {% for group in page.coordinates %}
         [
-            {% for key in group %}
-                {% for coord in key[1] %}
-                    [{{ coord[0] }}, {{ coord[1] }}],
-                {% endfor %}
+        {% for key in group %}
+            {% for coord in key[1] %}
+                [{{ coord[0] }}, {{ coord[1] }}],
             {% endfor %}
+        {% endfor %}
         ],
     {% endfor %}
 {% endcapture %}
 {% assign firstCoordinate = page.coordinates[0] | first %}
-{% leaflet_map { "center" : [{{ firstCoordinate[1][0][1] }}, {{ firstCoordinate[1][0][0] }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
-    {% leaflet_geojson {
+{% leaflet_map { "center": [{{ firstCoordinate[1][0][1] }},{{ firstCoordinate[1][0][0] }}], "zoom": 17, "providerBasemap": "GeoserveiTopo" } %}
+{% leaflet_geojson {
         "type": "Feature",
         "properties": { "pane": "{{ page.collection }}" },
         "geometry": {
-            "type": "Polygon",
-            "coordinates": [{{ geojson }}] } } %}
+        "type": "Polygon",
+        "coordinates": [{{ geojson }}] } } %}
 {% endleaflet_map %}
 
 {{ page.content }}

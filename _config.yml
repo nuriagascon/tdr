@@ -30,17 +30,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 collections:
-  bcil-existents:
-    output: true
-  bcil-previstos-cbp:
-    output: true
-  bcin-existents:
-    output: true
-  bcin-previstos-cbp:
-    output: true
-  patrimoni-arqueologic-i-paleontologic:
-    output: true
-  patrimoni-arquitectonic:
+  patrimoni:
     output: true
 
 # Exclude from processing.
