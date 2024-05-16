@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CENTRE HISTÒRIC"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.459674899942919, 42.359267830334325]

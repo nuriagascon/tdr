@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "TEULERIA DEL FIRAL"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.460752394323672, 42.360890809375107]

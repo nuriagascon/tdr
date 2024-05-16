@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "NECRÒPOLIS DEL BARRI DE SANT ANTONI"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.478358488883045, 42.361701441008229]

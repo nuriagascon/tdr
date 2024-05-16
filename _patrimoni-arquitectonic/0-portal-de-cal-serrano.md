@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PORTAL DE CAL SERRANO"
+collections: ["patrimoni-arqueologic-i-paleontologic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460765422351602, 42.357693717918977]

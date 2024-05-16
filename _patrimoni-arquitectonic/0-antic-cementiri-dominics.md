@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ANTIC CEMENTIRI DELS DOMINICS"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.45962910494004, 42.359038328664411]

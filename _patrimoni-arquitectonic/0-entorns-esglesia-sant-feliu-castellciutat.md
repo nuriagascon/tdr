@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ENTORNS DE L'ESGLÉSIA DE SANT FELIU DE CASTELLCIUTAT"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.443161625281534, 42.355293028809783]

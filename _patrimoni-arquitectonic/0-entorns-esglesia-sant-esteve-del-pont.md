@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ENTORNS DE L'ESGLÉSIA DE SANT ESTEVE DEL PONT"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.452232535874687, 42.367038123688495]

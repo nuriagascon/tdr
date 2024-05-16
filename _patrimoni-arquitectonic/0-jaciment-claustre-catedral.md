@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "JACIMENT DEL CLAUSTRE DE LA CATEDRAL"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.461712542382689, 42.357380362182703]

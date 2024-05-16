@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EL FIRAL"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.457954765378076, 42.361120977371662]

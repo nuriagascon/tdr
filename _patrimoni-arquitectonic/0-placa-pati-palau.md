@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PLAÇA DEL PATI PALAU"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.461808289741237, 42.357006760953197]

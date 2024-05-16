@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "JACIMENT DE LA PLAÇA DELS OMS"
+collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.46166490279249, 42.357972614423538]
