@@ -5,14 +5,25 @@
     <title>{{page.title}}</title>
 </head>
 <body>
-{% assign firstCoordinate = page.coordinates | first %}
-{% leaflet_map { "center" : [{{ firstCoordinate[1] }}, {{ firstCoordinate[0] }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
+{% capture geojson %}
+    {% for group in page.coordinates %}
+        [
+            {% for key in group %}
+                {% for coord in key[1] %}
+                    [{{ coord[0] }}, {{ coord[1] }}],
+                {% endfor %}
+            {% endfor %}
+        ],
+    {% endfor %}
+{% endcapture %}
+{% assign firstCoordinate = page.coordinates[0] | first %}
+{% leaflet_map { "center" : [{{ firstCoordinate[1][0][1] }}, {{ firstCoordinate[1][0][0] }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
     {% leaflet_geojson {
         "type": "Feature",
         "properties": { "pane": "{{ page.collection }}" },
         "geometry": {
             "type": "Polygon",
-            "coordinates": [{{ page.coordinates }}] } } %}
+            "coordinates": [{{ geojson }}] } } %}
 {% endleaflet_map %}
 
 {{ page.content }}
