@@ -118,6 +118,16 @@
                 map.getPane(name).style.zIndex = 405;
                 map.getPane(name).style["mix-blend-mode"] = "normal";
                 break;
+            case "bcin-existents":
+                map.createPane(name);
+                map.getPane(name).style.zIndex = 408;
+                map.getPane(name).style["mix-blend-mode"] = "normal";
+                break;
+            case "bcin-previstos-cbp":
+                map.createPane(name);
+                map.getPane(name).style.zIndex = 407;
+                map.getPane(name).style["mix-blend-mode"] = "normal";
+                break;
         }
     }
 
@@ -151,6 +161,34 @@
                     fillColor: "rgba(233,135,219,1.0)",
                     interactive: true,
                 }
+            case "bcin-existents":
+                return {
+                    pane: name,
+                    opacity: 1,
+                    color: "rgba(35,35,35,1.0)",
+                    dashArray: "",
+                    lineCap: "butt",
+                    lineJoin: "miter",
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: "rgba(103,88,150,1.0)",
+                    interactive: true,
+                }
+            case "bcin-previstos-cbp":
+                return {
+                    pane: name,
+                    opacity: 1,
+                    color: "rgba(35,35,35,1.0)",
+                    dashArray: "",
+                    lineCap: "butt",
+                    lineJoin: "miter",
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: "rgba(151,124,184,1.0)",
+                    interactive: true,
+                };
         }
     }
 
