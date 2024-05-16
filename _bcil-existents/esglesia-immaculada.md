@@ -1,7 +1,6 @@
 ---
 layout: test
 title:  "ANTIGA ESGLÉSIA DE LA IMMACULADA"
-published: true
 coordinates:
   - [1.459873986245037, 42.358190867266018]
   - [1.459952162557119, 42.358214726446469]

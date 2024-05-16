@@ -1,7 +1,6 @@
 ---
 layout: test
 title:  "PATI DE LES MONGES"
-published: true
 coordinates:
   - [1.45947309660072, 42.358708240337229]
   - [1.459554554985225, 42.358666877734457]

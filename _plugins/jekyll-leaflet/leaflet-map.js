@@ -109,40 +109,58 @@
     function _createPane(map, name) {
         switch (name){
             case "bcil-existents":
-                map.createPane("pane_bcin_existents");
-                map.getPane("pane_bcin_existents").style.zIndex = 408;
-                map.getPane("pane_bcin_existents").style["mix-blend-mode"] = "normal";
+                map.createPane("pane_bcil_existents");
+                map.getPane("pane_bcil_existents").style.zIndex = 408;
+                map.getPane("pane_bcil_existents").style["mix-blend-mode"] = "normal";
                 break;
             case "bcil-previstos-cbp":
-                map.createPane("pane_bcin_previstos");
-                map.getPane("pane_bcin_previstos").style.zIndex = 405;
-                map.getPane("pane_bcin_previstos").style["mix-blend-mode"] = "normal";
+                map.createPane("pane_bcil_previstos");
+                map.getPane("pane_bcil_previstos").style.zIndex = 405;
+                map.getPane("pane_bcil_previstos").style["mix-blend-mode"] = "normal";
                 break;
         }
     }
 
     function _style(name) {
-        return {
-            pane: name,
-            opacity: 1,
-            color: "rgba(35,35,35,1.0)",
-            dashArray: "",
-            lineCap: "butt",
-            lineJoin: "miter",
-            weight: 1.0,
-            fill: true,
-            fillOpacity: 1,
-            fillColor: "rgba(103,88,150,1.0)",
-            interactive: true,
+        console.log(name);
+        switch (name){
+            case "bcil-existents":
+                return {
+                    pane: "pane_bcil_existents",
+                    opacity: 1,
+                    color: "rgba(35,35,35,1.0)",
+                    dashArray: "",
+                    lineCap: "butt",
+                    lineJoin: "miter",
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: "rgba(219,35,127,1.0)",
+                    interactive: true,
+                }
+            case "bcil-previstos-cbp":
+                return {
+                    pane: "pane_bcil_previstos",
+                    opacity: 1,
+                    color: "rgba(35,35,35,1.0)",
+                    dashArray: "",
+                    lineCap: "butt",
+                    lineJoin: "miter",
+                    weight: 1.0,
+                    fill: true,
+                    fillOpacity: 1,
+                    fillColor: "rgba(233,135,219,1.0)",
+                    interactive: true,
+                }
         }
     }
 
     function _addGeoJSONObjToMap(leafletItem, map) {
         var geojson = L.geoJSON(leafletItem.value, {
             onEachFeature: _onEachFeature,
-            style: _style("pane_bcin_existents")
+            style: _style(leafletItem.value.properties.pane)
         });
-        _createPane(map, "bcil-existents");
+        _createPane(map, leafletItem.value.properties.pane);
         layers = geojson.getLayers();
         for (var i = 0; i < layers.length; i++) {
             var geom = layers[i].feature.geometry;

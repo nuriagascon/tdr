@@ -1,7 +1,6 @@
 ---
 layout: test
 title:  "SEU DEL CONSELL COMARCAL DE L'ALT URGELL"
-published: true
 coordinates:
   - [1.459570855242998, 42.355919336857752]
   - [1.459757030965781, 42.355966482751711]

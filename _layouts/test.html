@@ -5,12 +5,11 @@
     <title>{{page.title}}</title>
 </head>
 <body>
-potato
-
 {% assign firstCoordinate = page.coordinates | first %}
 {% leaflet_map { "center" : [{{ firstCoordinate[1] }}, {{ firstCoordinate[0] }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
     {% leaflet_geojson {
         "type": "Feature",
+        "properties": { "pane": "{{ page.collection }}" },
         "geometry": {
             "type": "Polygon",
             "coordinates": [{{ page.coordinates }}] } } %}

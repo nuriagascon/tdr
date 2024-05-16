@@ -1,7 +1,6 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT AGUSTÍ"
-published: true
 coordinates:
   - [1.461216811316719, 42.355361807721394]
   - [1.46166512757786, 42.355309133766035]

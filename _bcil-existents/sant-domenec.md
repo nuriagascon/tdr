@@ -1,7 +1,6 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT DOMÈNEC"
-published: true
 coordinates:
   - [1.461996394053428, 42.358430962484434]
   - [1.462338924489009, 42.358462782319599]

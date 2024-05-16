@@ -9,7 +9,18 @@ layout: home
         {% leaflet_geojson {
             "type": "Feature",
             "properties": { "popupContent": "{{ place.title }}",
-                            "href": "{{ place.url }}" },
+                            "href": "{{ place.url }}",
+                            "pane": "{{ place.collection }}" },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [{{ place.coordinates }}] } } %}
+    {% endfor %}
+    {% for place in site.bcil-previstos-cbp %}
+        {% leaflet_geojson {
+            "type": "Feature",
+            "properties": { "popupContent": "{{ place.title }}",
+                            "href": "{{ place.url }}",
+                            "pane": "{{ place.collection }}" },
             "geometry": {
                 "type": "Polygon",
                 "coordinates": [{{ place.coordinates }}] } } %}

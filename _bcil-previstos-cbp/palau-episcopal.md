@@ -1,7 +1,6 @@
 ---
 layout: test
 title:  "PALAU EPISCOPAL"
-published: true
 coordinates:
   - [1.462261095618837, 42.357197018901296]
   - [1.462432007940371, 42.357180353934339]
