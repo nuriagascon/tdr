@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CLAUSTRE DEL VALIRA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.452854156382766, 42.359411158169237]

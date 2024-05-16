@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT AGUSTÍ"
+collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:
   - group1:
         - [1.461216811316719, 42.355361807721394]

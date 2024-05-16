@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESCUT DE LA FAÇANA DE CAL SERRANO"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460768526476311, 42.357691269853355]

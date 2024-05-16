@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESCUTS DE LA FAÇANA DE CA L'ARMENTER"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461513743964124, 42.356865512319537]

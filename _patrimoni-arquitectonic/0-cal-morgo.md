@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MORGÓ"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460192929039364, 42.358929807813944]

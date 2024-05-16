@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "SANTA EULÀLIA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp", "patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:
         - [1.46234968138959, 42.357998333359049]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "INSTITUT JOAN BRUDIEU"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.457098697075569, 42.353243788483503]

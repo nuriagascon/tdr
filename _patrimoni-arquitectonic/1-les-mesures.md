@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "LES MESURES"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460927749286807, 42.358069999341488]

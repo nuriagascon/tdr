@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CASTELL DE CASTELLCIUTAT"
+collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:
         - [1.443917100906494, 42.357360371038247]

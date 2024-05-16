@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESCUTS DE LA FAÇANA DE SANT DOMÈNEC"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.462008195624974, 42.358392587230988]

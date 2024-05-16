@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL LECHERO"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.459288367484106, 42.356926032576261]

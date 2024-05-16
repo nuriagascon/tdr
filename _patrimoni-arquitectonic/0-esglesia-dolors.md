@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DELS DOLORS"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.462432609569433, 42.357461370092828]

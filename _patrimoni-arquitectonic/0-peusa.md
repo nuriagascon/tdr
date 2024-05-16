@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI PEUSA"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459520099335387, 42.355976075192409]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI ASSEGURANCES ESTANYOL"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459963540611038, 42.35651942579014]

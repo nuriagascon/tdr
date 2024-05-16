@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESCUT DE LA FAÇANA DE CAL MOSSÈN ANDREU"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460837226281667, 42.357443340273711]

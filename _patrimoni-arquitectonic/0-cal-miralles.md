@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MIRALLES"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459027750577873, 42.356700454241235]

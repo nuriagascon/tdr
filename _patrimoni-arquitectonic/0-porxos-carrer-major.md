@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PORXOS DEL CARRER MAJOR"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461778012470731, 42.358169615768169]

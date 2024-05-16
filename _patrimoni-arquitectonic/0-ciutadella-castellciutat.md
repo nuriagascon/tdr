@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CIUTADELLA DE CASTELLCIUTAT"
+collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:
         - [1.441957615099112, 42.352719654425449]

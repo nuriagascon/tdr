@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL DUAT"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.443628974353695, 42.355979687681824]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL CUSÍ"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.453149841986098, 42.356768260364582]

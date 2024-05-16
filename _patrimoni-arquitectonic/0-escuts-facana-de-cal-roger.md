@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESCUTS DE LA FAÇANA DE CAL ROGER"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461424641207573, 42.357291430560544]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI CAIXA DE PENSIONS"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.458024676123389, 42.356300711579657]

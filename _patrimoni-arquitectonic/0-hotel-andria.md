@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "HOTEL ANDRIA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460056995824671, 42.356378264914326]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL DOMENJÓ"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459589301280158, 42.35520522534437]

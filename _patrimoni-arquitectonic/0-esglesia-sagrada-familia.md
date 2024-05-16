@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE LA SAGRADA FAMÍLIA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.46040579985766, 42.354634541961353]

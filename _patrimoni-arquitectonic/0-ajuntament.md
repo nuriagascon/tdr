@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "AJUNTAMENT DE LA SEU D'URGELL"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.462344145058125, 42.358199681120169]

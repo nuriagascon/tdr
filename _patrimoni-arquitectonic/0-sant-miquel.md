@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT MIQUEL"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461971070499194, 42.357385548894108]

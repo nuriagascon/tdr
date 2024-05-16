@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT ESTEVE DEL PONT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.450888468541452, 42.367027623156758]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL ROGER"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461382153551698, 42.35728924740404]

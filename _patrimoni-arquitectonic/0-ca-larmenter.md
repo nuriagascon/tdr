@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CA L'ARMENTER"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461679739284226, 42.356974965361033]

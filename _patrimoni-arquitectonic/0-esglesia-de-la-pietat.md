@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE LA PIETAT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461640892861014, 42.357688519969912]

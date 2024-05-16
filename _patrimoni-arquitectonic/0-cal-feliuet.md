@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL FELIUET"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.444021672033456, 42.35598939972423]

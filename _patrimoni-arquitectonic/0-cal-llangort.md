@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL LLANGORT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.459665513948264, 42.355509397162379]

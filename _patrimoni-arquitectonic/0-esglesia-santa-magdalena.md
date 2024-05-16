@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANTA MAGDALENA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.455377864382697, 42.353842164581017]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PALAU EPISCOPAL"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.462261095618837, 42.357197018901296]

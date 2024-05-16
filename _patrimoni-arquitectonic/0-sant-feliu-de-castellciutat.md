@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT FELIU DE CASTELLCIUTAT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.443362754295719, 42.355233185508304]

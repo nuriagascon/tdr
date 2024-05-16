@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PORXOS DELS CARRER CANONGES"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
       - [1.46122299818415, 42.357768018356047]

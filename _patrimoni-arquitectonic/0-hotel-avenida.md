@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "HOTEL AVENIDA"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459073991059646, 42.358190347068017]

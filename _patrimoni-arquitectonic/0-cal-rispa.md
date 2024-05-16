@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL RISPA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460481370578471, 42.358474957844095]

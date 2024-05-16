@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL ROIG"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459704747455021, 42.356120312206116]

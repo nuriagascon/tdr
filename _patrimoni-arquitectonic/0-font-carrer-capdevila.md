@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "FONT DEL CARRER CAPDEVILA"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.459691308353239, 42.359044629882661]

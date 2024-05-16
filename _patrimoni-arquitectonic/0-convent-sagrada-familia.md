@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CONVENT DE LA SAGRADA FAMÍLIA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460706021550092, 42.354248315027647]

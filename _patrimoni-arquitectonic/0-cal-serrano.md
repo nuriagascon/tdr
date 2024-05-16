@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL SERRANO"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460768237899857, 42.357692165015486]

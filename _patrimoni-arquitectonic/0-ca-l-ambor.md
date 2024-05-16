@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CA L’AMBOR"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.460364690720647, 42.357984164889579]

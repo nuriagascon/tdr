@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL PATALÍN"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461059871884847, 42.357436481952853]

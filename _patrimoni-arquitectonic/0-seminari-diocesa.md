@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "SEMINARI DIOCESÀ"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460890741905232, 42.360015333391857]

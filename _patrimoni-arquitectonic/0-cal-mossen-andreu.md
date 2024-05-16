@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MOSSÈN ANDREU"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460820622728996, 42.35749836814783]

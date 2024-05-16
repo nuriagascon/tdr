@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL FORNESA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.462421112712837, 42.35846203328358]

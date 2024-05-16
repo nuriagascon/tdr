@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MONCASI"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.459727843419232, 42.359218292754754]

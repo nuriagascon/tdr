@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL NEQUÍ"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.459939865645802, 42.355219714613796]

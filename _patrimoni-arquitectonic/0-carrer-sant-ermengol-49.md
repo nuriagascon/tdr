@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI DEL CARRER SANT ERMENGOL, 49"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.454919022246306, 42.356738531644794]

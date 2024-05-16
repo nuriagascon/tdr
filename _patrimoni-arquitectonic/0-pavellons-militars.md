@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PAVELLONS MILITARS"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.455998646089525, 42.353070323162406]

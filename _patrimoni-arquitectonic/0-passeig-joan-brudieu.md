@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PASSEIG JOAN BRUDIEU"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459893485993543, 42.356373502340354]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EL DEGANAT"
+collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:
         - [1.461971065960134, 42.357385734988249]

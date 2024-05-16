@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL POP DEL JULIÀ"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.461018419437591, 42.357587432427131]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ANTIC ESCORXADOR MUNICIPAL"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.456141706452955, 42.352525097556146]

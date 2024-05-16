@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL RIBA"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.461400552895759, 42.357912739790571]

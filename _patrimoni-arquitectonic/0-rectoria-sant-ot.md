@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ANTIGA RECTORIA DE SANT OT"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.46132862489254, 42.357788429117029]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI MUNDIAL"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459892696943591, 42.356940159980638]

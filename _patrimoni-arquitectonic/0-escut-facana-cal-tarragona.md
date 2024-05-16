@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESCUT DE LA FAÇANA DE CAL TARRAGONA"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460608580944843, 42.357967312097763]

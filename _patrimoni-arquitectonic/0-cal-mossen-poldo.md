@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MOSSÈN POLDO"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461396868629951, 42.35811992594914]

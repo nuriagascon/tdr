@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "QUADRA I PALLER DE CAL LLIBERAT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.44404389804171, 42.355430606192527]

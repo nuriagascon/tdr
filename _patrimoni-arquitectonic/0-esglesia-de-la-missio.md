@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE LA MISSIÓ"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460126374638424, 42.356985944216575]

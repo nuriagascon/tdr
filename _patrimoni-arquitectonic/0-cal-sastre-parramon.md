@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL SASTRE PARRAMON"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.461049182751111, 42.35797790839321]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ESGLÉSIA DE SANT DOMÈNEC"
+collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:
   - group1:
         - [1.461996394053428, 42.358430962484434]

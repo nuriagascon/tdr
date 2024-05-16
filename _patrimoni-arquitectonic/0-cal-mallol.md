@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MALLOL"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460115904490753, 42.357214083509028]

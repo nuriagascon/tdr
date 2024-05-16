@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL LLEÓ"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.46114222777182, 42.356384276610235]

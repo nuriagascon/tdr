@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL MOLINES"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.458920275713093, 42.358008139281011]

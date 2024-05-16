@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "TORRE SOLSONA"
+collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:
         - [1.449246841947047, 42.361360135270068]

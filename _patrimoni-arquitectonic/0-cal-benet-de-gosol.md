@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL BENET DE GÓSOL"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.461741196920241, 42.356473337762502]

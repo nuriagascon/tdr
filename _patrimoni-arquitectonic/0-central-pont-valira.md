@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ANTIGA CENTRAL DEL PONT DEL VALIRA"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.452795692876149, 42.361032787752826]

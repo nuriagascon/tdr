@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL BUNDANCIETA"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.461099057663497, 42.354486605151664]

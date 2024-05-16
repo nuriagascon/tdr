@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI BANC ESPANYOL DE CRÈDIT"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459258897659339, 42.356614743916978]

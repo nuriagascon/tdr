@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL LLANES"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461637512943658, 42.358379025286297]

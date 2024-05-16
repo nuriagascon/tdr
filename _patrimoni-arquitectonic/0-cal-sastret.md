@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL SASTRET"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.459288451127704, 42.35692908473461]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CENTRE SOCIAL “LA CAIXA”"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.462168960774946, 42.357109937274799]

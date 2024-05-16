@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL CALÇOT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460570543247272, 42.357394594355647]

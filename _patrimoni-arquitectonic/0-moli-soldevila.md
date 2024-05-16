@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "MOLÍ DE SOLDEVILA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461520039033572, 42.354212916651235]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL TONIPAL"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.451867724612617, 42.359760208902436]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL FITER"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461510831823916, 42.358360218485927]

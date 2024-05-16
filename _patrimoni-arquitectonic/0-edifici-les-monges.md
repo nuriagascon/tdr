@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "EDIFICI DE LES MONGES"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459719280314122, 42.358905294678912]

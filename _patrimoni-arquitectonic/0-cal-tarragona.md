@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL TARRAGONA"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460624040559984, 42.357893355548015]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL DURÓ"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.45939317182799, 42.356686683268713]

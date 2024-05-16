@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL XAMPENY"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.460607492717279, 42.358168158739353]

@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "PORTAL VELL D'ANDORRA"
+collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:
         - [1.46119198428389, 42.357918178922183]

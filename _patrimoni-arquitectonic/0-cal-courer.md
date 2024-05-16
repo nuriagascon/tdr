@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CAL COURER"
+collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:
         - [1.459894977738193, 42.356608766590107]

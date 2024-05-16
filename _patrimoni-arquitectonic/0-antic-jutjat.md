@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "ANTIC JUTJAT"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.462151087129636, 42.356502541607007]

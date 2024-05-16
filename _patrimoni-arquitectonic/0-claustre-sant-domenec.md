@@ -1,6 +1,7 @@
 ---
 layout: test
 title:  "CLAUSTRE DE SANT DOMÈNEC"
+collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:
         - [1.461984961119468, 42.358722378384321]
