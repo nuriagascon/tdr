@@ -10,7 +10,7 @@ class LeafletMap < Liquid::Block
         else
             @input = input
         end
-        
+
         if !(input.is_a? String)
             raise "leaflet-map input argument must be a String"
         end
@@ -19,7 +19,7 @@ class LeafletMap < Liquid::Block
 
 
     def render(context)
-        text = super        
+        text = super
         if !(text.is_a? String)
             raise "leaflet-map content between the tag blocks must a String"
         end
@@ -31,11 +31,11 @@ class LeafletMap < Liquid::Block
         map_html = File.read(
             File.expand_path("./leaflet-map.html", File.dirname(__FILE__)))
 
-        @input = parse_liquid_output_in(@input, context)
+        data = parse_liquid_output_in(@input, context)
         id = SecureRandom.hex
         map_js = map_js % {id: id,
                            leaflet_providers_js_content: leaflet_providers_js_content,
-                           tag_input_arg_json: @input,
+                           tag_input_arg_json: data,
                            inside_block_leaflet_items: text}
         map_html = map_html % {id: id,
                                leaflet_map_js_content: map_js}

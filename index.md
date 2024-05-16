@@ -1,12 +1,11 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: home
 ---
 
 # Hello
 
-{% leaflet_map { "center" : [48.7596,  -113.787], "zoom" : 4, "providerBasemap": "OpenTopoMap" } %}
-    {% for place in site.places %}
+{% leaflet_map { "center" : [42.356834705844484, 1.45456943339023], "zoom" : 16, "providerBasemap": "GeoserveiTopo" } %}
+    {% for place in site.bcil-existents %}
         {% leaflet_geojson {
             "type": "Feature",
             "properties": { "popupContent": "{{ place.title }}",

@@ -77,6 +77,13 @@
 	 */
 
 	L.TileLayer.Provider.providers = {
+		GeoserveiTopo: {
+			url: 'https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/topo/GRID3857/{z}/{x}/{y}.png',
+			options: {
+				maxZoom: 19,
+				attribution: '<a href="https://www.icgc.cat/">Institut Cartogràfic i Geològic de Catalunya</a>'
+			}
+		},
 		OpenStreetMap: {
 			url: 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
 			options: {

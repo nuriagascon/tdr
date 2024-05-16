@@ -2,9 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{page.title}}</title>
 </head>
 <body>
-{{ page.content }}
+potato
+
+{% leaflet_map { "center" : [{{ page.lat }}, {{ page.long }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
+    {% leaflet_geojson {
+        "type": "Feature",
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [{{ page.coordinates }}] } } %}
+{% endleaflet_map %}
 </body>
 </html>

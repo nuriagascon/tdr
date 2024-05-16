@@ -30,9 +30,9 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 collections:
-  places:
+  bcil-existents:
     output: true
-    permalink: /place/:title
+    permalink: /bcil_existents/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
