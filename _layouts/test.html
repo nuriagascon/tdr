@@ -7,7 +7,8 @@
 <body>
 potato
 
-{% leaflet_map { "center" : [{{ page.lat }}, {{ page.long }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
+{% assign firstCoordinate = page.coordinates | first %}
+{% leaflet_map { "center" : [{{ firstCoordinate[1] }}, {{ firstCoordinate[0] }}], "zoom" : 17, "providerBasemap": "GeoserveiTopo" } %}
     {% leaflet_geojson {
         "type": "Feature",
         "geometry": {

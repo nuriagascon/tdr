@@ -32,7 +32,10 @@ github_username:  jekyll
 collections:
   bcil-existents:
     output: true
-    permalink: /bcil_existents/:title
+    permalink: /bcil-existents/:title
+  bcil-previstos-cbp:
+    output: true
+    permalink: /bcil-previstos-cbp/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default.
