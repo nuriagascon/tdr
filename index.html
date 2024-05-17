@@ -65,7 +65,7 @@ title: Mapa del patrimoni cultural immoble de la Seu
             resultsContainer: document.getElementById('results-container'),
             json: '{{ site.baseurl }}/search.json',
             searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
-            noResultsText: 'No results found',
+            noResultsText: "<li><a>No s'ha trobat cap resultat</a></li>",
             limit: 5,
             fuzzy: true
         })
