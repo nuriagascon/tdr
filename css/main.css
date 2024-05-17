@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
 body {
     margin: 0;
+    font-family: 'Lexend', sans-serif;
 }
 
 .leaflet-map {
@@ -12,4 +15,94 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+
+.header {
+    display: flex;
+    gap: 15px;
+}
+
+.header h1 {
+    margin-left: 14px;
+}
+
+.search-bar {
+    --padding: 14px;
+
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    border-radius: 28px;
+    background-color: #f6f6f6;
+    position: relative;
+    z-index: 2001;
+}
+
+.search {
+    height: 100%;
+    align-items: center;
+    display: flex;
+    position: relative;
+    z-index: 2000;
+    flex: 1;
+}
+
+.search-wrapper {
+    width: 600px;
+    position: relative;
+    margin-left: auto;
+    margin-right: 14px;
+}
+
+#search-input {
+    font-size: 16px;
+    color: #333333;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+#search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+    height: 16px;
+    width: 16px;
+    margin-left: .4em;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23777'><path d='M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z'/></svg>");
+    cursor: pointer;
+}
+
+.search-input::placeholder,
+.search-icon {
+    color: rgba(0, 0, 0, 0.25);
+}
+
+#results-container {
+    top: 50%;
+    margin: 0;
+    right: 0;
+    left: 0;
+    padding-top: 30px;
+    padding-left: 0;
+    position: absolute;
+    list-style: none;
+    background-color: #f6f6f6;
+
+    border-bottom-right-radius: 28px;
+    border-bottom-left-radius: 28px;
+    overflow: hidden;
+}
+#results-container:empty {
+    display: none;
+}
+
+#results-container li a:hover {
+    background-color: #eeeeee;
+}
+#results-container li a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: black;
 }

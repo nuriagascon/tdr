@@ -3,9 +3,32 @@ layout: home
 title: Mapa del patrimoni cultural immoble de la Seu
 ---
 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
 
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <script type="text/javascript" src="{{ site.baseurl }}/js/search/simple-jekyll-search.js"></script>
+</head>
+<body>
 <div class="map">
-    <h1>Mapa del patrimoni cultural immoble de la Seu</h1>
+    <div class="header">
+        <h1>Geoportal de la Seu d'Urgell</h1>
+        <div class="search">
+            <div class="search-wrapper">
+                <div class="search-bar">
+                    <span class="search-icon material-symbols-outlined">search</span>
+                    <input type="search" class="form-control" id="search-input" placeholder="Cerca un element...">
+                    <label for="search-input"></label>
+                </div>
+                <ul id="results-container"></ul>
+            </div>
+        </div>
+    </div>
 
     {% leaflet_map { "center": [42.356834705844484, 1.45456943339023], "zoom": 16, "needsLayers": true } %}
     {% for place in site.patrimoni %}
@@ -35,4 +58,18 @@ title: Mapa del patrimoni cultural immoble de la Seu
         {% endfor %}
     {% endfor %}
     {% endleaflet_map %}
+
+    <script>
+        window.simpleJekyllSearch = new SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ site.baseurl }}/search.json',
+            searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 5,
+            fuzzy: true
+        })
+    </script>
 </div>
+</body>
+</html>
