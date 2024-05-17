@@ -107,127 +107,46 @@
     }
 
     function _createPane(map, name) {
-        switch (name){
-            case "bcil-existents":
-                map.createPane(name);
-                map.getPane(name).style.zIndex = 408;
-                map.getPane(name).style["mix-blend-mode"] = "normal";
-                break;
-            case "bcil-previstos-cbp":
-                map.createPane(name);
-                map.getPane(name).style.zIndex = 405;
-                map.getPane(name).style["mix-blend-mode"] = "normal";
-                break;
-            case "bcin-existents":
-                map.createPane(name);
-                map.getPane(name).style.zIndex = 408;
-                map.getPane(name).style["mix-blend-mode"] = "normal";
-                break;
-            case "bcin-previstos-cbp":
-                map.createPane(name);
-                map.getPane(name).style.zIndex = 407;
-                map.getPane(name).style["mix-blend-mode"] = "normal";
-                break;
-            case "patrimoni-arqueologic-i-paleontologic":
-                map.createPane(name);
-                map.getPane(name).style.zIndex = 403;
-                map.getPane(name).style["mix-blend-mode"] = "normal";
-                break;
-            case "patrimoni-arquitectonic":
-                map.createPane(name);
-                map.getPane(name).style.zIndex = 404;
-                map.getPane(name).style["mix-blend-mode"] = "normal";
-                break;
+        const zIndexMap = {
+            "bcil-existents": 408,
+            "bcil-previstos-cbp": 405,
+            "bcin-existents": 408,
+            "bcin-previstos-cbp": 407,
+            "patrimoni-arqueologic-i-paleontologic": 403,
+            "patrimoni-arquitectonic": 404
+        };
+
+        if (!(name in zIndexMap)) {
+            throw `Pane with name: ${name} is not supported`;
         }
+
+        map.createPane(name);
+        map.getPane(name).style.zIndex = zIndexMap[name];
     }
 
     function _style(name) {
-        switch (name){
-            case "bcil-existents":
-                return {
-                    pane: name,
-                    opacity: 1,
-                    color: "rgba(35,35,35,1.0)",
-                    dashArray: "",
-                    lineCap: "butt",
-                    lineJoin: "miter",
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 1,
-                    fillColor: "rgba(219,35,127,1.0)",
-                    interactive: true,
-                }
-            case "bcil-previstos-cbp":
-                return {
-                    pane: name,
-                    opacity: 1,
-                    color: "rgba(35,35,35,1.0)",
-                    dashArray: "",
-                    lineCap: "butt",
-                    lineJoin: "miter",
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 1,
-                    fillColor: "rgba(233,135,219,1.0)",
-                    interactive: true,
-                }
-            case "bcin-existents":
-                return {
-                    pane: name,
-                    opacity: 1,
-                    color: "rgba(35,35,35,1.0)",
-                    dashArray: "",
-                    lineCap: "butt",
-                    lineJoin: "miter",
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 1,
-                    fillColor: "rgba(103,88,150,1.0)",
-                    interactive: true,
-                }
-            case "bcin-previstos-cbp":
-                return {
-                    pane: name,
-                    opacity: 1,
-                    color: "rgba(35,35,35,1.0)",
-                    dashArray: "",
-                    lineCap: "butt",
-                    lineJoin: "miter",
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 1,
-                    fillColor: "rgba(151,124,184,1.0)",
-                    interactive: true,
-                }
-            case "patrimoni-arqueologic-i-paleontologic":
-                return {
-                    pane: name,
-                    opacity: 1,
-                    color: "rgba(35,35,35,1.0)",
-                    dashArray: "",
-                    lineCap: "butt",
-                    lineJoin: "miter",
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 0.5,
-                    fillColor: "rgba(241,253,6,1.0)",
-                    interactive: true,
-                }
-            case "patrimoni-arquitectonic":
-                return {
-                    pane: name,
-                    opacity: 1,
-                    color: "rgba(35,35,35,1.0)",
-                    dashArray: "",
-                    lineCap: "butt",
-                    lineJoin: "miter",
-                    weight: 1.0,
-                    fill: true,
-                    fillOpacity: 0.7,
-                    fillColor: "rgba(171,138,20,1.0)",
-                    interactive: true,
-                };
-        }
+        const baseStyle = {
+            pane: name,
+            opacity: 1,
+            color: "rgba(35,35,35,1.0)",
+            dashArray: "",
+            lineCap: "butt",
+            lineJoin: "miter",
+            weight: 1.0,
+            fill: true,
+            interactive: true
+        };
+
+        const styles = {
+            "bcil-existents": { fillOpacity: 1, fillColor: "rgb(219,35,127)" },
+            "bcil-previstos-cbp": { fillOpacity: 1, fillColor: "rgb(233,135,219)" },
+            "bcin-existents": { fillOpacity: 1, fillColor: "rgb(103,88,150)" },
+            "bcin-previstos-cbp": { fillOpacity: 1, fillColor: "rgb(151,124,184)" },
+            "patrimoni-arqueologic-i-paleontologic": { fillOpacity: 0.5, fillColor: "rgb(241,253,6)" },
+            "patrimoni-arquitectonic": { fillOpacity: 0.7, fillColor: "rgb(171,138,20)" }
+        };
+
+        return { ...baseStyle, ...styles[name] };
     }
 
     function _addGeoJSONObjToMap(leafletItem, map) {
@@ -236,7 +155,6 @@
             style: _style(leafletItem.value.properties.pane)
         });
         if(map.getPane(leafletItem.value.properties.pane) == null){
-            console.log("Pane with name '"+leafletItem.value.properties.pane+"' not found, creating one");
             _createPane(map, leafletItem.value.properties.pane);
         }
         layers = geojson.getLayers();
@@ -272,9 +190,6 @@
 
 //The actual section that is called that creates a map
     function createMap() {
-        console.log("Creating map %{id} with these args:");
-        console.log(tagInputArg);
-
         //Initialize Map with the correct input arguments
         var map = L.map(mapEl.id,
             {worldCopyJump: true}).setView(_getCenter(), _getZoom());
@@ -286,8 +201,6 @@
         //process each Leaflet Item passed in between the block tag middle
         for (var i = 0; i < blockLeafletItems.length; i++) {
             var leafletItem = blockLeafletItems[i];
-            console.log("Adding leaflet item " + leafletItem.id + ":");
-            console.log(leafletItem);
             _processLeafletItem(leafletItem, map);
         }
     }
