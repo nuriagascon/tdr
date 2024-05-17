@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "BIGUES DE CAL PINELLET"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

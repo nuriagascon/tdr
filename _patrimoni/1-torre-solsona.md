@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "TORRE SOLSONA"
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:

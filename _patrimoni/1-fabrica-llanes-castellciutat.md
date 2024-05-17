@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "FÀBRICA DE LLANES DE CASTELLCIUTAT"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

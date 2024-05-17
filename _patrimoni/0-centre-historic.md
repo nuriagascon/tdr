@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CENTRE HISTÒRIC"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

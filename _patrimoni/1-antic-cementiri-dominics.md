@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ANTIC CEMENTIRI DELS DOMINICS"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

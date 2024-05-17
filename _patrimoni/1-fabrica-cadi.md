@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "FÀBRICA DE LA COOPERATIVA LLETERA DEL CADÍ"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

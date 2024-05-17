@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CASTELL DE CASTELLCIUTAT"
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:

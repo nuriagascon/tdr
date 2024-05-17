@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "AJARDINAMENT DEL CLAUSTRE DE SANTA MARIA"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

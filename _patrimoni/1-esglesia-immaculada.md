@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ANTIGA ESGLÉSIA DE LA IMMACULADA"
 collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:

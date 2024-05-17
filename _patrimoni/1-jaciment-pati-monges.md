@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "JACIMENT DEL PATI DE LES MONGES"
 collections: ["patrimoni-arqueologic-i-paleontologic", "bcil-existents"]
 coordinates:

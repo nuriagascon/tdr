@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ANTIGA RECTORIA DE SANT OT"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

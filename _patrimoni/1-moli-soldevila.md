@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "MOLÍ DE SOLDEVILA"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

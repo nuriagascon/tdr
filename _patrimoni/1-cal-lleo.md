@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL LLEÓ"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

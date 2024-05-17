@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EL DEGANAT"
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:

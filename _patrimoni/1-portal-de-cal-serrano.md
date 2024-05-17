@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "PORTAL DE CAL SERRANO"
 collections: ["patrimoni-arqueologic-i-paleontologic", "bcil-previstos-cbp"]
 coordinates:

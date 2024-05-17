@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI BANC ESPANYOL DE CRÈDIT"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

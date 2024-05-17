@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "TURÓ DE CASTELLCIUTAT"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL DON LLORENS"
 collections: ["bcil-previstos-cbp"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ESCUTS DE LA FAÇANA DE CAL DON LLORENS"
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:

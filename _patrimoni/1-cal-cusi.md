@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL CUSÍ"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

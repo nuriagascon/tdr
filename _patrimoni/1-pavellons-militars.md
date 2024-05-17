@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "PAVELLONS MILITARS"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

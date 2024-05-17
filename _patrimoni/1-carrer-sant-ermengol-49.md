@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI DEL CARRER SANT ERMENGOL, 49"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL RIBA"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

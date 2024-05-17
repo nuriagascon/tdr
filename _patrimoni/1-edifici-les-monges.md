@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI DE LES MONGES"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

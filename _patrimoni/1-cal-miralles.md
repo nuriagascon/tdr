@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL MIRALLES"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL POP DEL JULIÀ"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

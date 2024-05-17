@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "TEULERIA DEL FIRAL"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

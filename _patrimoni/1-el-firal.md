@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EL FIRAL"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

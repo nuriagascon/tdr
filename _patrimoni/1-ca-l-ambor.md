@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CA L’AMBOR"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

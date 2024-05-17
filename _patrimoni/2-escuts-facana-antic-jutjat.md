@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ESCUTS DE LA FAÇANA DE L'ANTIC JUTJAT"
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:

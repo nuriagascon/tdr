@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ANTIGA CENTRAL DEL PONT DEL VALIRA"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

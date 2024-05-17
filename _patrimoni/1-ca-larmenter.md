@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CA L'ARMENTER"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

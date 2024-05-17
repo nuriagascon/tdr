@@ -1,10 +1,13 @@
 ---
 layout: home
+title: Mapa del patrimoni cultural immoble de la Seu
 ---
 
-# Mapa del patrimoni cultural immoble de la Seu
 
-{% leaflet_map { "center" : [42.356834705844484, 1.45456943339023], "zoom" : 16, "providerBasemap": "GeoserveiTopo" } %}
+<div class="map">
+    <h1>Mapa del patrimoni cultural immoble de la Seu</h1>
+
+    {% leaflet_map { "center": [42.356834705844484, 1.45456943339023], "zoom": 16, "providerBasemap": "GeoserveiTopo" } %}
     {% for place in site.patrimoni %}
         {% capture geojson %}
             {% for group in place.coordinates %}
@@ -20,15 +23,16 @@ layout: home
 
         {% for collect in place.collections %}
             {% leaflet_geojson {
-                "type": "Feature",
-                "properties": { "popupContent": "{{ place.title }}",
-                                "href": "{{ place.url }}",
-                                "pane": "{{ collect }}" },
-                "geometry": {
+                    "type": "Feature",
+                    "properties": { "popupContent": "{{ place.title }}",
+                    "href": "{{ place.url }}",
+                    "pane": "{{ collect }}" },
+                    "geometry": {
                     "type": "MultiPolygon",
                     "coordinates": [[
-                        {{ geojson }}
+            {{ geojson }}
                     ]] } } %}
         {% endfor %}
     {% endfor %}
-{% endleaflet_map %}
+    {% endleaflet_map %}
+</div>

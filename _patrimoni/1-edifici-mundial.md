@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI MUNDIAL"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

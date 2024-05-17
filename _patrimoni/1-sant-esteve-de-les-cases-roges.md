@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ESGLÉSIA DE SANT ESTEVE DE LES CASES ROGES"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL FITER"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "COL·LEGI SANT JOAN BAPTISTA DE LA SALLE"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

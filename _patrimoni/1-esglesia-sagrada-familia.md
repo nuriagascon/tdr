@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ESGLÉSIA DE LA SAGRADA FAMÍLIA"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

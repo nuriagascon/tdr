@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "SEU DEL CONSELL COMARCAL DE L'ALT URGELL"
 collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:

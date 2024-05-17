@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "INSTITUT JOAN BRUDIEU"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

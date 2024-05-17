@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "SANTA EULÀLIA"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp", "patrimoni-arqueologic-i-paleontologic"]
 coordinates:

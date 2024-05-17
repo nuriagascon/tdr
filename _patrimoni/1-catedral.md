@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CATEDRAL DE SANTA MARIA D'URGELL"
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL BUNDANCIETA"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "NECRÒPOLIS DEL BARRI DE SANT ANTONI"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

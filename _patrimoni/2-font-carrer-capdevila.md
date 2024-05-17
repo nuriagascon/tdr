@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "FONT DEL CARRER CAPDEVILA"
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:

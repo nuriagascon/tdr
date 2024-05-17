@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "PLAÇA DEL PATI PALAU"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

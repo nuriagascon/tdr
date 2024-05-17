@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI CAIXA DE PENSIONS"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

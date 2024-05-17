@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ANTIC ESCORXADOR MUNICIPAL"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ESGLÉSIA DELS DOLORS"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:

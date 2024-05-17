@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "HOTEL AVENIDA"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

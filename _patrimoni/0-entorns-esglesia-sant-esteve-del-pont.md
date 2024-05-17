@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ENTORNS DE L'ESGLÉSIA DE SANT ESTEVE DEL PONT"
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:

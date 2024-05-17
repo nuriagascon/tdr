@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CAL BENET DE GÓSOL"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

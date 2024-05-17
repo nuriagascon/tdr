@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI PEUSA"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

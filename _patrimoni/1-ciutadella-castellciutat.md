@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "CIUTADELLA DE CASTELLCIUTAT"
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:

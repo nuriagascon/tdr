@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "EDIFICI ASSEGURANCES ESTANYOL"
 collections: ["patrimoni-arquitectonic"]
 coordinates:

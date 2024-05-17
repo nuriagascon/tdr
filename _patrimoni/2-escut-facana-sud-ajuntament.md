@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "ESCUT DE LA FAÇANA SUD DE L'AJUNTAMENT"
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:

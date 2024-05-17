@@ -1,5 +1,5 @@
 ---
-layout: test
+layout: patrimoni-details
 title:  "PORXOS DELS CARRER CANONGES"
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
