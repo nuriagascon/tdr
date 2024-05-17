@@ -8,7 +8,7 @@
     <script type="text/javascript" src="{{ site.baseurl }}/js/search/simple-jekyll-search.js"></script>
 </head>
 <body>
-    <input type="text" id="search-input" placeholder="Search blog posts..">
+    <input type="text" id="search-input" placeholder="Busca un patrimoni cultural...">
     <ul id="results-container"></ul>
     {{ content }}
 
@@ -20,8 +20,7 @@
             searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
             noResultsText: 'No results found',
             limit: 3,
-            fuzzy: true,
-            exclude: ['Welcome']
+            fuzzy: true
         })
     </script>
 </body>
