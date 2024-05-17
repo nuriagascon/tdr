@@ -4,9 +4,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <script type="text/javascript" src="{{ site.baseurl }}/js/search/simple-jekyll-search.js"></script>
 </head>
 <body>
+    <input type="text" id="search-input" placeholder="Search blog posts..">
+    <ul id="results-container"></ul>
     {{ content }}
+
+    <script>
+        window.simpleJekyllSearch = new SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ site.baseurl }}/search.json',
+            searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
+            noResultsText: 'No results found',
+            limit: 3,
+            fuzzy: true,
+            exclude: ['Welcome']
+        })
+    </script>
 </body>
 </html>

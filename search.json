@@ -1,0 +1,14 @@
+---
+layout: none
+---
+[
+{% for patrimoni in site.patrimoni %}
+{
+"title"    : "{{ patrimoni.title }}",
+"category" : "{{ patrimoni.category }}",
+"tags"     : "{{ patrimoni.tags | join: ', ' }}",
+"url"      : "{{ patrimoni.baseurl }}{{ patrimoni.url }}",
+"date"     : "{{ patrimoni.date }}"
+} {% unless forloop.last %},{% endunless %}
+{% endfor %}
+]
