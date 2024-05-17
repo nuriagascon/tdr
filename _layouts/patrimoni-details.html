@@ -18,10 +18,9 @@
     {% endfor %}
 {% endcapture %}
 {% assign firstCoordinate = page.coordinates[0] | first %}
-{% leaflet_map { "center": [{{ firstCoordinate[1][0][1] }},{{ firstCoordinate[1][0][0] }}], "zoom": 17, "providerBasemap": "GeoserveiTopo" } %}
+{% leaflet_map { "center": [{{ firstCoordinate[1][0][1] }},{{ firstCoordinate[1][0][0] }}], "zoom": 17 } %}
 {% leaflet_geojson {
         "type": "Feature",
-        "properties": { "pane": "{{ page.collection }}" },
         "geometry": {
         "type": "Polygon",
         "coordinates": [{{ geojson }}] } } %}

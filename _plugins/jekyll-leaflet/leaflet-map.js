@@ -21,6 +21,9 @@
 
     var newWindowImgSrcBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wUVFzAHq2j99AAAAV9JREFUSMdjYKAxYCRHk5ubG9+1a9fm/v//H6cadnb2G/fu3atlIceC379/c3z9+jUEn5q/f/8eYWBgYECxQE5OroqA2Y8ePXq0hJWV9Qc3N/caZB8wMjJKff361QpvEAkKCv4nYMGh9+/f26MLamhoyLx9+3b/nz9/VJCC6MiLFy9sWXCE3xlGRsZvWKQu4DOciYnpCzc396HPnz97weRxWRD/8OHDa4TiAt1wfn5+z79//zoxMDDALWAiN/lhM/zevXtH0NUx0dJwsiwgxXCccUCJ4dzc3DP+//+/gZ2d/duLFy9Is+Djx4+rCbn82rVrrxgYGF6RFUR8fHyZbGxsD7AZLiEhUSAiIrJSUlIyjOw4uHnz5gVHR0d1bC7/8+eP5d+/f8P+/PmjS1Ekr1ix4hcp6ploXVwPfQuwJlMmJiYBLS0tIVIMev36NRvRFnz48OHohw8fhkYQjQKCAAChiL6Pj/LM2QAAAABJRU5ErkJggg==";
 
+    var bcil_existents, bcil_previstos_cbp, bcin_existents, bcin_previstos_cbp, patrimoni_arqueologic_i_paleontologic,
+        patrimoni_arquitectonic;
+
 // Actual mapping section; Specify a function to be called later that
 // assembles the correct JS components based on what the user specified in the
 // tag input arg, the block section of features, etc. Actually creates the map
@@ -35,21 +38,21 @@
         }
     }
 
+    function _needsLayers() {
+        var defaultNeeds = false;
+        if ("needsLayers" in tagInputArg) {
+            return tagInputArg.needsLayers;
+        } else {
+            return defaultNeeds;
+        }
+    }
+
     function _getZoom() {
         var defaultZoom = 1;
         if ("zoom" in tagInputArg) {
             return tagInputArg.zoom
         } else {
             return defaultZoom;
-        }
-    }
-
-    function _getProviderBasemap() {
-        var defaultProviderBasemap = "OpenStreetMap.Mapnik";
-        if ("providerBasemap" in tagInputArg) {
-            return tagInputArg.providerBasemap;
-        } else {
-            return defaultProviderBasemap;
         }
     }
 
@@ -149,13 +152,32 @@
         return { ...baseStyle, ...styles[name] };
     }
 
+    function _overlayLayer(name){
+        switch(name){
+            case "bcil-existents": return bcil_existents;
+            case "bcil-previstos-cbp": return bcil_previstos_cbp;
+            case "bcin-existents": return bcin_existents;
+            case "bcin-previstos-cbp": return bcin_previstos_cbp;
+            case "patrimoni-arqueologic-i-paleontologic": return patrimoni_arqueologic_i_paleontologic;
+            case "patrimoni-arquitectonic": return patrimoni_arquitectonic;
+        }
+    }
+
     function _addGeoJSONObjToMap(leafletItem, map) {
-        var geojson = L.geoJSON(leafletItem.value, {
-            onEachFeature: _onEachFeature,
-            style: _style(leafletItem.value.properties.pane)
-        });
-        if(map.getPane(leafletItem.value.properties.pane) == null){
-            _createPane(map, leafletItem.value.properties.pane);
+        var geojson;
+        if(leafletItem.value.properties != null && leafletItem.value.properties.pane != null){
+            geojson = L.geoJSON(leafletItem.value, {
+                onEachFeature: _onEachFeature,
+                style: _style(leafletItem.value.properties.pane)
+            });
+
+            if(map.getPane(leafletItem.value.properties.pane) == null){
+                _createPane(map, leafletItem.value.properties.pane);
+            }
+        }else{
+            geojson = L.geoJSON(leafletItem.value, {
+                onEachFeature: _onEachFeature
+            });
         }
         layers = geojson.getLayers();
         for (var i = 0; i < layers.length; i++) {
@@ -168,7 +190,10 @@
             }
         }
 
-        geojson.addTo(map);
+        if(leafletItem.value.properties != null && leafletItem.value.properties.pane != null)
+            geojson.addTo(_overlayLayer(leafletItem.value.properties.pane));
+        else
+            geojson.addTo(map);
 
     }
 
@@ -193,15 +218,48 @@
         //Initialize Map with the correct input arguments
         var map = L.map(mapEl.id,
             {worldCopyJump: true}).setView(_getCenter(), _getZoom());
-        L.tileLayer.provider(_getProviderBasemap()).addTo(map);
         if ("esriBasemap" in tagInputArg) {
             L.esri.basemapLayer(tagInputArg.esriBasemap).addTo(map);
         }
+
+        var topographic = L.tileLayer.provider("Geoservei.Topo").addTo(map);
+        var topographicGray = L.tileLayer.provider("Geoservei.TopoGris");
+        var orthographic = L.tileLayer.provider("Geoservei.Orto");
+        var orthographicGray = L.tileLayer.provider("Geoservei.OrtoGris");
+
+        bcil_existents = L.layerGroup();
+        bcil_previstos_cbp = L.layerGroup();
+        bcin_existents = L.layerGroup();
+        bcin_previstos_cbp = L.layerGroup();
+        patrimoni_arqueologic_i_paleontologic = L.layerGroup().addTo(map);
+        patrimoni_arquitectonic = L.layerGroup().addTo(map);
 
         //process each Leaflet Item passed in between the block tag middle
         for (var i = 0; i < blockLeafletItems.length; i++) {
             var leafletItem = blockLeafletItems[i];
             _processLeafletItem(leafletItem, map);
+        }
+
+        var baseLayers = {
+            "Topogràfic": topographic,
+            "Topogràfic Gris": topographicGray,
+            "Ortogràfic": orthographic,
+            "Ortogràfic Gris": orthographicGray,
+        };
+
+        var overlayMaps = {
+            "Patrimoni Arqueològic i Paleontològic": patrimoni_arqueologic_i_paleontologic,
+            "Patrimoni Arquitectònic": patrimoni_arquitectonic,
+            "BCIL Existents": bcil_existents,
+            "BCIL Previstos CBP": bcil_previstos_cbp,
+            "BCIN Existents": bcin_existents,
+            "BCIN Previstos CBP": bcin_previstos_cbp,
+        };
+
+        if(_needsLayers()){
+            L.control.layers(baseLayers, overlayMaps).addTo(map);
+        }else{
+            L.control.layers(baseLayers, null).addTo(map);
         }
     }
 

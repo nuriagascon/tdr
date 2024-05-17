@@ -7,7 +7,7 @@ title: Mapa del patrimoni cultural immoble de la Seu
 <div class="map">
     <h1>Mapa del patrimoni cultural immoble de la Seu</h1>
 
-    {% leaflet_map { "center": [42.356834705844484, 1.45456943339023], "zoom": 16, "providerBasemap": "GeoserveiTopo" } %}
+    {% leaflet_map { "center": [42.356834705844484, 1.45456943339023], "zoom": 16, "needsLayers": true } %}
     {% for place in site.patrimoni %}
         {% capture geojson %}
             {% for group in place.coordinates %}
