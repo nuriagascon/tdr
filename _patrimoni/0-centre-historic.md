@@ -46,3 +46,23 @@ coordinates:
         - [1.459629149442993, 42.359038156487181]
         - [1.459674899942919, 42.359267830334325]
 ---
+
+## Altres noms
+
+> Casc Antic
+
+## Tipus
+
+> Patrimoni Arqueològic
+
+## Classe
+
+> EPA
+
+## Àrea (m2)
+
+> 115765.47
+
+## Codi CBP
+
+> PA CH01

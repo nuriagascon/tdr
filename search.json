@@ -2,7 +2,9 @@
 layout: none
 ---
 [
-{% for patrimoni in site.patrimoni %}
+
+{% assign sortedPatrimonis = site.patrimoni | sort: 'title' %}
+{% for patrimoni in sortedPatrimonis %}
 {
 "title"    : "{{ patrimoni.title }}",
 "url"      : "{{ patrimoni.baseurl }}{{ patrimoni.url }}"

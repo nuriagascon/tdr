@@ -11,6 +11,7 @@
 
 .description {
     flex-grow: 1;
+    padding: 16px;
 }
 
 .description h1 {
