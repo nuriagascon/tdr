@@ -288,6 +288,11 @@
 
         var combinedBounds = calculateCombinedBounds(map);
         map.fitBounds(combinedBounds);
+        map.setMaxBounds(combinedBounds.pad(.1));
+
+        /*map.on('drag', function() {
+            map.panInsideBounds(combinedBounds, { animate: false });
+        });*/
     }
 
 // Load the correct JS libraries/CSS by adding to head:
