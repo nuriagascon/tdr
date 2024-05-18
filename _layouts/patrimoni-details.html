@@ -9,7 +9,7 @@
 <body>
 <div class="map">
     {% include header.html %}
-
+    <h1 class="title mobile">{{ page.title }}</h1>
     <div class="detailed-leaflet">
         {% assign total_lat = 0 %}
         {% assign total_lon = 0 %}
@@ -60,7 +60,7 @@
         {% endleaflet_map %}
 
         <div class="description">
-            <h1>{{ page.title }}</h1>
+            <h1 class="title desktop">{{ page.title }}</h1>
             {{ page.content }}
         </div>
     </div>
