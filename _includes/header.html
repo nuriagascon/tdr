@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 <script type="text/javascript" src="{{ site.baseurl }}/js/search/simple-jekyll-search.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/search/search-buttons.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/collapsibles.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/js/side-panel.js"></script>
 
@@ -16,13 +17,14 @@
             <div class="search-bar">
                 <span class="search-icon material-symbols-outlined">search</span>
                 <input type="search" class="form-control" id="search-input" placeholder="Cerca un element...">
+                <button id="search-cancel">Cancela</button>
                 <label for="search-input"></label>
             </div>
             <ul id="results-container"></ul>
         </div>
     </div>
     <div class="search mobile">
-        <button><span class="search-icon material-symbols-outlined">search</span></button>
+        <button id="search-button"><span class="search-icon material-symbols-outlined">search</span></button>
     </div>
 </div>
 

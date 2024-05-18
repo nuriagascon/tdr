@@ -78,9 +78,18 @@
     text-decoration: none;
     color: black;
 }
+#search-cancel {
+    color: dodgerblue;
+    font-size: 16px;
+    font-weight: 600;
+}
 
 @media only screen and (min-width: 1160px){
     .search.mobile {
+        display: none;
+    }
+
+    #search-cancel {
         display: none;
     }
 }
@@ -88,6 +97,20 @@
 @media only screen and (max-width: 1160px){
     .search.desktop {
         display: none;
+    }
+    .header.mobile-search .search.desktop {
+        display: inherit !important;
+        flex-grow: 1;
+    }
+    .header.mobile-search .search.mobile,
+    .header.mobile-search #open-panel-button,
+    .header.mobile-search .title {
+        display: none !important;
+    }
+
+    .search-wrapper {
+        width: 100%;
+        margin-left: 14px;
     }
 
     .search {
