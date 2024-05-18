@@ -213,6 +213,30 @@
         }
     }
 
+    function calculateCombinedBounds(map) {
+        // Initialize a bounds object
+        var combinedBounds = null;
+
+        // Loop through each layer in the map
+        map.eachLayer(function (layer) {
+            if (layer instanceof L.GeoJSON) {
+                // Get the bounds of the current GeoJSON layer
+                var layerBounds = layer.getBounds();
+
+                // Initialize combinedBounds if it's the first layer
+                if (!combinedBounds) {
+                    combinedBounds = L.latLngBounds(layerBounds);
+                } else {
+                    // Extend the combined bounds to include the current layer's bounds
+                    combinedBounds.extend(layerBounds);
+                }
+            }
+        });
+
+        return combinedBounds;
+    }
+
+
 //The actual section that is called that creates a map
     function createMap() {
         //Initialize Map with the correct input arguments
@@ -261,6 +285,9 @@
         }else{
             L.control.layers(baseLayers, null).addTo(map);
         }
+
+        var combinedBounds = calculateCombinedBounds(map);
+        map.fitBounds(combinedBounds);
     }
 
 // Load the correct JS libraries/CSS by adding to head:

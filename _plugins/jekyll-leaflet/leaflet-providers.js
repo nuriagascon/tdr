@@ -82,28 +82,28 @@
 				Topo: {
 					url: 'https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/topo/GRID3857/{z}/{x}/{y}.png',
 					options: {
-						maxZoom: 19,
+						maxZoom: 20,
 						attribution: '<a href="https://www.icgc.cat/">Institut Cartogràfic i Geològic de Catalunya</a>'
 					}
 				},
 				TopoGris: {
 					url: 'https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/topogris/GRID3857/{z}/{x}/{y}.png',
 					options: {
-						maxZoom: 19,
+						maxZoom: 20,
 						attribution: '<a href="https://www.icgc.cat/">Institut Cartogràfic i Geològic de Catalunya</a>'
 					}
 				},
 				Orto: {
 					url: 'https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/orto/GRID3857/{z}/{x}/{y}.png',
 					options: {
-						maxZoom: 19,
+						maxZoom: 20,
 						attribution: '<a href="https://www.icgc.cat/">Institut Cartogràfic i Geològic de Catalunya</a>'
 					}
 				},
 				OrtoGris: {
 					url: 'https://geoserveis.icgc.cat/icc_mapesmultibase/noutm/wmts/ortogris/GRID3857/{z}/{x}/{y}.png',
 					options: {
-						maxZoom: 19,
+						maxZoom: 20,
 						attribution: '<a href="https://www.icgc.cat/">Institut Cartogràfic i Geològic de Catalunya</a>'
 					}
 				},
