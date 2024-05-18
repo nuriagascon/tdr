@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="/css/search.css">
+<link rel="stylesheet" href="/css/header.css">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+<script type="text/javascript" src="{{ site.baseurl }}/js/search/simple-jekyll-search.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/collapsibles.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/side-panel.js"></script>
+
+<div class="header">
+    <button id="open-panel-button"><span class="material-symbols-outlined">menu</span></button>
+    <h1>{{ site.title }}</h1>
+    <div class="search">
+        <div class="search-wrapper">
+            <div class="search-bar">
+                <span class="search-icon material-symbols-outlined">search</span>
+                <input type="search" class="form-control" id="search-input" placeholder="Cerca un element...">
+                <label for="search-input"></label>
+            </div>
+            <ul id="results-container"></ul>
+        </div>
+    </div>
+</div>
+
+<div class="overlay" id="overlay"></div>
+
+<div id="side-panel" class="side-panel">
+    <div class="side-panel-header">
+        <button id="close-panel-button"><span class="material-symbols-outlined">close</span></button>
+    </div>
+    <div class="side-panel-content">
+        <a href="{{ site.url }}"><button>Inici</button></a>
+        <a href="{{ site.url }}/about"><button>Sobre el Geoportal</button></a>
+        <button class="collapsible">Contingut</button>
+        <div class="content">
+            {% for place in site.patrimoni %}
+            <a href="{{ place.url }}" class="place-link"><button>{{ place.title }}</button></a>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<script>
+    window.simpleJekyllSearch = new SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '{{ site.url }}/search.json',
+        searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
+        noResultsText: "<li><a>No s'ha trobat cap resultat</a></li>",
+        limit: 5,
+        fuzzy: true
+    })
+</script>

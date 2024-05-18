@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+}
+
+.map {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header>button span,
+.side-panel-header>button span {
+    margin-left: 14px;
+    font-size: 34px;
+    font-weight: bold;
+}
+.header>button,
+.side-panel-header>button {
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.side-panel-content a {
+    text-decoration: none;
+}
+
+.side-panel {
+    height: 100%;
+    width: min(100vw, 512px);
+    position: fixed;
+    background-color: white;
+    left: -512px;
+    z-index: 5000;
+    display: flex;
+    flex-direction: column;
+    transition: left 0.3s ease;
+}
+.side-panel.open {
+    left: 0;
+}
+
+.side-panel-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.side-panel-content {
+    flex-grow: 1;
+    overflow-y: auto;
+    margin: 20px;
+}
+
+.side-panel-content button {
+    color: #545454;
+    cursor: pointer;
+    padding: 18px;
+    display: block;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 0.625rem;
+    margin-bottom: 10px;
+}
+
+.collapsible {
+    margin-bottom: 5px !important;
+}
+
+.active, .side-panel-content button:hover {
+    background-color: #e9eff5;
+}
+
+.content {
+    padding-left: 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.content button {
+    margin-bottom: 5px;
+}
+
+.place-link {
+    text-decoration: none;
+    color: #545454;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: #545454;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 4000;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+}
+
+.overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
