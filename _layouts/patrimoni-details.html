@@ -50,7 +50,6 @@
                 ],
             {% endfor %}
         {% endcapture %}
-        {% assign firstCoordinate = page.coordinates[0] | first %}
         {% leaflet_map { "center": [{{ center_lat }},{{ center_lon }}], "zoom": 17 } %}
         {% leaflet_geojson {
                 "type": "Feature",
