@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     openPanelButton.addEventListener("click", function() {
         header.classList.add("mobile-search");
+        searchInput.select();
         clearSearchInput();
     });
 
