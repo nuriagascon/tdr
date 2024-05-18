@@ -3,34 +3,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
+
+    <link rel="stylesheet" href="/css/details.css">
 </head>
 <body>
 <div class="map">
     {% include header.html %}
 
-    <h1>{{ page.title }}</h1>
-
-    {% capture geojson %}
-        {% for group in page.coordinates %}
-            [
-            {% for key in group %}
-                {% for coord in key[1] %}
-                    [{{ coord[0] }}, {{ coord[1] }}],
+    <div class="detailed-leaflet">
+        {% capture geojson %}
+            {% for group in page.coordinates %}
+                [
+                {% for key in group %}
+                    {% for coord in key[1] %}
+                        [{{ coord[0] }}, {{ coord[1] }}],
+                    {% endfor %}
                 {% endfor %}
+                ],
             {% endfor %}
-            ],
-        {% endfor %}
-    {% endcapture %}
-    {% assign firstCoordinate = page.coordinates[0] | first %}
-    {% leaflet_map { "center": [{{ firstCoordinate[1][0][1] }},{{ firstCoordinate[1][0][0] }}], "zoom": 17 } %}
-    {% leaflet_geojson {
-            "type": "Feature",
-            "geometry": {
-            "type": "Polygon",
-            "coordinates": [{{ geojson }}] } } %}
-    {% endleaflet_map %}
+        {% endcapture %}
+        {% assign firstCoordinate = page.coordinates[0] | first %}
+        {% leaflet_map { "center": [{{ firstCoordinate[1][0][1] }},{{ firstCoordinate[1][0][0] }}], "zoom": 17 } %}
+        {% leaflet_geojson {
+                "type": "Feature",
+                "geometry": {
+                "type": "Polygon",
+                "coordinates": [{{ geojson }}] } } %}
+        {% endleaflet_map %}
 
-    {{ page.content }}
+        <div class="description">
+            <h1>{{ page.title }}</h1>
+            {{ page.content }}
+        </div>
+    </div>
 </div>
 </body>
 </html>

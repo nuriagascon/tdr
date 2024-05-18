@@ -1,0 +1,20 @@
+.detailed-leaflet {
+    flex-grow: 1;
+    display: flex;
+}
+
+.leaflet-map {
+    height: 100% !important;
+    margin: 0 !important;
+    width: 50%;
+}
+
+.description {
+    flex-grow: 1;
+}
+
+.description h1 {
+    margin-left: auto;
+    margin-right: auto;
+    display: table;
+}
