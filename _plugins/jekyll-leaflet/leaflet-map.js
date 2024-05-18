@@ -83,9 +83,9 @@
             potentialPopup += feature.properties.popupContent;
         }
         if (feature.properties && feature.properties.href) {
-            potentialPopup +=
-                '<a href="' + feature.properties.href + '">' +
-                '<img src="' + newWindowImgSrcBase64 + '"></img></a>';
+            potentialPopup =
+                `<p class="popup">${potentialPopup}<a href="${feature.properties.href}">` +
+                '<span class="material-symbols-outlined">open_in_new</span></a></p>';
         }
         if (potentialPopup) {
             layer.bindPopup(potentialPopup);
