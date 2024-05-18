@@ -16,6 +16,13 @@ body {
     display: flex;
     align-items: center;
     gap: 14px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
+    z-index: 1500;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
 }
 
 .header>button span,
