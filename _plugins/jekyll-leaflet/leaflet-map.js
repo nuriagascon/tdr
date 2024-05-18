@@ -243,8 +243,8 @@
         var baseLayers = {
             "Topogràfic": topographic,
             "Topogràfic Gris": topographicGray,
-            "Ortogràfic": orthographic,
-            "Ortogràfic Gris": orthographicGray,
+            "Ortofoto": orthographic,
+            "Ortofoto Gris": orthographicGray,
         };
 
         var overlayMaps = {
