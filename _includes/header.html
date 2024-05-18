@@ -9,8 +9,9 @@
 
 <div class="header">
     <button id="open-panel-button"><span class="material-symbols-outlined">menu</span></button>
-    <a href="{{ site.url }}"><h1>{{ site.title }}</h1></a>
-    <div class="search">
+    <h1 class="title long"><a href="{{ site.url }}">{{ site.title }}</a></h1>
+    <h1 class="title short"><a href="{{ site.url }}">{{ site.short_title }}</a></h1>
+    <div class="search desktop">
         <div class="search-wrapper">
             <div class="search-bar">
                 <span class="search-icon material-symbols-outlined">search</span>
@@ -19,6 +20,9 @@
             </div>
             <ul id="results-container"></ul>
         </div>
+    </div>
+    <div class="search mobile">
+        <button><span class="search-icon material-symbols-outlined">search</span></button>
     </div>
 </div>
 

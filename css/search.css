@@ -78,3 +78,34 @@
     text-decoration: none;
     color: black;
 }
+
+@media only screen and (min-width: 1160px){
+    .search.mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1160px){
+    .search.desktop {
+        display: none;
+    }
+
+    .search {
+        flex-grow: 0;
+    }
+
+    .search button{
+        margin-left: auto;
+        margin-right: 14px;
+
+        padding: 0;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    .search button span {
+        color: black;
+        font-weight: bold;
+        font-size: 34px;
+    }
+}

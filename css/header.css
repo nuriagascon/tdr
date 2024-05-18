@@ -139,3 +139,21 @@ body {
     opacity: 1;
     pointer-events: auto;
 }
+
+@media only screen and (max-width: 1160px){
+    .header .title {
+        flex-grow: 1;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 590px){
+    .header .title.long {
+        display: none;
+    }
+}
+@media only screen and (min-width: 590px){
+    .header .title.short {
+        display: none;
+    }
+}
