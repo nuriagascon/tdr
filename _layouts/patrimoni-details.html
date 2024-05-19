@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="/css/details.css">
 </head>
 <body>
+{% include header.html %}
 <div class="map">
-    {% include header.html %}
     <h1 class="title mobile">{{ page.title }}</h1>
     <div class="detailed-leaflet">
         {% assign total_lat = 0 %}

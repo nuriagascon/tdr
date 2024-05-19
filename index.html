@@ -11,9 +11,8 @@ layout: home
     <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
+{% include header.html %}
 <div class="map">
-    {% include header.html %}
-
     {% assign total_lat = 0 %}
     {% assign total_lon = 0 %}
     {% assign total_points = 0 %}
