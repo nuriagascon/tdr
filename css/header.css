@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 
+:root {
+    --header-height: 80px;
+    --background-color: #ffffff;
+    --header-spacing: 14px;
+
+    --sidebar-width: min(100vw, 512px);
+
+    --sidebar-priority: 5000;
+    --overlay-priority: 4000;
+    --header-priority: 1500;
+
+    --link-color: #1e90ff;
+}
+
 body {
     margin: 0;
     font-family: 'Lexend', sans-serif;
@@ -12,20 +26,20 @@ body {
 }
 
 .header {
-    height: 80px;
+    height: var(--header-height);
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: var(--header-spacing);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
-    z-index: 1500;
+    z-index: var(--header-priority);
     position: fixed;
     width: 100%;
-    background-color: white;
+    background-color: var(--background-color);
 }
 
 .map {
-    padding-top: 80px !important;
-    height: calc(100% - 80px) !important;
+    padding-top: var(--header-height) !important;
+    height: calc(100% - var(--header-height)) !important;
 }
 
 .header a {
@@ -35,7 +49,7 @@ body {
 
 .header>button span,
 .side-panel-header>button span {
-    margin-left: 14px;
+    margin-left: var(--header-spacing);
     font-size: 34px;
     font-weight: bold;
 }
@@ -53,11 +67,11 @@ body {
 
 .side-panel {
     height: 100%;
-    width: min(100vw, 512px);
+    width: var(--sidebar-width);
     position: fixed;
-    background-color: white;
-    left: -512px;
-    z-index: 5000;
+    background-color: var(--background-color);
+    left: calc(0px - var(--sidebar-width));
+    z-index: var(--sidebar-priority);
     display: flex;
     flex-direction: column;
     transition: left 0.3s ease;
@@ -67,7 +81,7 @@ body {
 }
 
 .side-panel-header {
-    height: 80px;
+    height: var(--header-height);
     display: flex;
     align-items: center;
     flex-shrink: 0;
@@ -137,7 +151,7 @@ body {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-    z-index: 4000;
+    z-index: var(--overlay-priority);
     opacity: 0;
     transition: opacity 0.3s ease;
     pointer-events: none;

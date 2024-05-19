@@ -12,7 +12,7 @@
 
 .page-content a {
     text-decoration: none;
-    color: dodgerblue;
+    color: var(--link-color);
 }
 
 .ajuntament-logo {

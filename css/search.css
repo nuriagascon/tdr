@@ -3,7 +3,6 @@
     align-items: center;
     display: flex;
     position: relative;
-    z-index: 2000;
     flex: 1;
 }
 
@@ -16,7 +15,7 @@
     border-radius: 28px;
     background-color: #f6f6f6;
     position: relative;
-    z-index: 2001;
+    z-index: 1;
 }
 
 .search-wrapper {
@@ -79,7 +78,7 @@
     color: black;
 }
 #search-cancel {
-    color: dodgerblue;
+    color: var(--link-color);
     font-size: 16px;
     font-weight: 600;
 }
