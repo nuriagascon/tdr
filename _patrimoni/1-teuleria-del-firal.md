@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "TEULERIA DEL FIRAL"
+alt_title: "Bòbila del Domenjó"
+class: "Jaciment"
+area: 14446.05
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PP EX02"
+image: "Teuleria_del_Firal.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EDIFICI DE LES MONGES"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH14"
+image: "Les_Monges.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

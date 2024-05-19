@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESGLÉSIA DE SANT FELIU DE CASTELLCIUTAT"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CB02"
+image: "St_Feliu_Ciutat.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

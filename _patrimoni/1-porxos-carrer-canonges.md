@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "PORXOS DELS CARRER CANONGES"
+alt_title: "Escoberts"
+class: "Conjunt"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH32"
+image: "Porxos_Canonges.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

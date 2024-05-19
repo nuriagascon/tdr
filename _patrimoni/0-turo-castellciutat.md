@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "TURÓ DE CASTELLCIUTAT"
+alt_title: null
+class: "EPA"
+area: 27556.45
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CB01"
+image: "Turo_Castellciutat.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

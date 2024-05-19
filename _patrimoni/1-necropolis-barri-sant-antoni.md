@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "NECRÒPOLIS DEL BARRI DE SANT ANTONI"
+alt_title: null
+class: "EPA"
+area: 952.09
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CB04"
+image: "Necropolis_St_Antoni.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

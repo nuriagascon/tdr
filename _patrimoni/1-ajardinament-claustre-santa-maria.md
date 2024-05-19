@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "AJARDINAMENT DEL CLAUSTRE DE SANTA MARIA"
+alt_title: null
+class: "Element"
+area: 27556.45
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH02"
+image: "Jardi_Claustre_Catedral.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

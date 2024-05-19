@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "LES MESURES"
+alt_title: null
+class: "Element"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH10"
+image: "Mesures.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

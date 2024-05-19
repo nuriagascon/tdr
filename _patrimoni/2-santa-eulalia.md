@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "SANTA EULÀLIA"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH03"
+image: "Sta_Eulalia.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp", "patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

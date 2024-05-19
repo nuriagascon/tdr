@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL DON LLORENS"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH05"
+image: "Cal_Don_Llorens.jpg"
+card: null
 collections: ["bcil-previstos-cbp"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EDIFICI ASSEGURANCES ESTANYOL"
+alt_title: "Universo"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH07"
+image: "Estanyol.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

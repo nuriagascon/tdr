@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EDIFICI CAIXA DE PENSIONS"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX08"
+image: "La_Caixa.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

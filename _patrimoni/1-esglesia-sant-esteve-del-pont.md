@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESGLÉSIA DE SANT ESTEVE DEL PONT"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CB01"
+image: "St_Esteve_Pont.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

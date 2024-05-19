@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL TONIPAL"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CB02"
+image: "Cal_Tonipal.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

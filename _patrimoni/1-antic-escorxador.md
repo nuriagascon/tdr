@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ANTIC ESCORXADOR MUNICIPAL"
+alt_title: "Camp de les Tombes"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX02"
+image: "Escorxador.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

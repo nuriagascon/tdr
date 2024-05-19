@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL LLEÓ"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH15"
+image: "Cal_Lleo.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

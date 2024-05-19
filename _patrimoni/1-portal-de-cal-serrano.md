@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "PORTAL DE CAL SERRANO"
+alt_title: null
+class: "Jaciment"
+area: 195.0
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CH06"
+image: "Portal_Cal_Serrano.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

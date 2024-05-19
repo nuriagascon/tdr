@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ENTORNS DE L'ESGLÉSIA DE SANT ESTEVE DEL PONT"
+alt_title: null
+class: "EPA"
+area: 32094.4
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CB03"
+image: "Entorns_St_Esteve_Pont.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

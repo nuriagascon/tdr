@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL SASTRE PARRAMON"
+alt_title: "Cal Sastre d'Alàs"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH11"
+image: "Cal_Sastre_Alas.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

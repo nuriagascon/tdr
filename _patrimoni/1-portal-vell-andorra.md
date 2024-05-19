@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "PORTAL VELL D'ANDORRA"
+alt_title: "Cal Cosp"
+class: "Monument històric"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIN CH03"
+image: "Portal_Vell_Andorra.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:

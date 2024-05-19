@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "TORRE SOLSONA"
+alt_title: "La Torreta"
+class: "Monument històric"
+area: null
+protection: "BCIN"
+addition_date: "1949-04-22"
+cat_code: "1566-MH"
+cbp_code: "BCIN CB03"
+image: "Torre_Solsona.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:

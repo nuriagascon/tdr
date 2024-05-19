@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EDIFICI MUNDIAL"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH01"
+image: "Mundial.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

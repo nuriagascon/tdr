@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL NEQUÍ"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX09"
+image: "Cal_Nequi.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL MALLOL"
+alt_title: "Cal Sunyer"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH30"
+image: "Cal_Mallol.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

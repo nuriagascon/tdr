@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "COL·LEGI SANT JOAN BAPTISTA DE LA SALLE"
+alt_title: "Els Hermanos"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX02"
+image: "La_Salle.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "FÀBRICA DE LLANES DE CASTELLCIUTAT"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CB01"
+image: "Fabrica_Llanes_Ciutat.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

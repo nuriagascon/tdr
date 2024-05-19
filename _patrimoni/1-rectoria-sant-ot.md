@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ANTIGA RECTORIA DE SANT OT"
+alt_title: null
+class: "Conjunt"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH12"
+image: "Rectoria.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

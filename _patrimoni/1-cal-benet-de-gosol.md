@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL BENET DE GÓSOL"
+alt_title: "Cal Ganyet"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH05"
+image: "Cal_Benet_Gosol.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

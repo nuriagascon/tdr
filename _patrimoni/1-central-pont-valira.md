@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ANTIGA CENTRAL DEL PONT DEL VALIRA"
+alt_title: "Cal Gutiérrez"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CB04"
+image: "Central_Pont_Valira.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

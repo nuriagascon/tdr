@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CIUTADELLA DE CASTELLCIUTAT"
+alt_title: "Torre Blanca"
+class: "Monument Històric"
+area: null
+protection: "BCIN"
+addition_date: "1949-04-22"
+cat_code: "1565-MH"
+cbp_code: "BCIN CB01"
+image: "Ciutadella.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:

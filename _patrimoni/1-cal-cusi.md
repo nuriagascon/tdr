@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL CUSÍ"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX04"
+image: "Cal_Cusi.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

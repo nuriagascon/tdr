@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CA L’AMBOR"
+alt_title: "Casa del carrer de la Perdiu"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH03"
+image: "Cal_Ambor.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

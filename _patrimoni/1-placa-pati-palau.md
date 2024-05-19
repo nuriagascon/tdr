@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "PLAÇA DEL PATI PALAU"
+alt_title: null
+class: "Jaciment"
+area: 1735.41
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CH04"
+image: "Pati_Palau.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

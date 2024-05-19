@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL MORGÓ"
+alt_title: "Cal Sabater Labús"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH10"
+image: "Cal_Morgo.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CENTRE SOCIAL “LA CAIXA”"
+alt_title: "Esplai de la Gent Gran"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH04"
+image: "Jubilats.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

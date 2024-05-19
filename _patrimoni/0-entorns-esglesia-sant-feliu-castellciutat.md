@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ENTORNS DE L'ESGLÉSIA DE SANT FELIU DE CASTELLCIUTAT"
+alt_title: "Plaça General Moragues"
+class: "EPA"
+area: 1477.5
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CB02"
+image: "Entorns_St_Feliu_Ciutat.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

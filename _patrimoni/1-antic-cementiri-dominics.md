@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ANTIC CEMENTIRI DELS DOMINICS"
+alt_title: "Camp de les Tombes"
+class: "EPA"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA EX01"
+image: "Cementiri_Dominics.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

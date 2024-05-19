@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESCUT DE LA FAÇANA DE CAL SERRANO"
+alt_title: null
+class: "Element"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIN CH14"
+image: "Escut_Facana_Cal_Serrano.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:

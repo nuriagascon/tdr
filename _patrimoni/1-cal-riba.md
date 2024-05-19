@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL RIBA"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH13"
+image: "Cal_Riba.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

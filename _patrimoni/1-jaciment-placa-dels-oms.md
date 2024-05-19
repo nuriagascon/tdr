@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "JACIMENT DE LA PLAÇA DELS OMS"
+alt_title: null
+class: "Jaciment"
+area: 350.93
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PA CH02"
+image: "Pati_Monges.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

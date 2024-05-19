@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL ROIG"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX12"
+image: "Cal_Roig.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CLAUSTRE DEL VALIRA"
+alt_title: "Claustre del Recionero"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX12"
+image: "Claustre_Valira.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

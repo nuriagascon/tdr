@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL LECHERO"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX11"
+image: "Cal_Lechero.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

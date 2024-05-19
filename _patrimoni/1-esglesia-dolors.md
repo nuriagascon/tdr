@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESGLÉSIA DELS DOLORS"
+alt_title: "Arxiu Diocesà i Capitular"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH21"
+image: "Els_Dolors.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

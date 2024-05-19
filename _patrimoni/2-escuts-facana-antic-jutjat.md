@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESCUTS DE LA FAÇANA DE L'ANTIC JUTJAT"
+alt_title: null
+class: "Element"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIN CH05"
+image: "Escuts_Facana_Antics_Jutjats.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:

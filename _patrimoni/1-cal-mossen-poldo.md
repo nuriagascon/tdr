@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL MOSSÈN POLDO"
+alt_title: "Espai Ermengol"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH16"
+image: "Cal_Mossen_Poldo.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

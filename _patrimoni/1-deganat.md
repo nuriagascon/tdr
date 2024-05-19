@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EL DEGANAT"
+alt_title: null
+class: "Monument històric"
+area: null
+protection: "BCIN"
+addition_date: "1980-08-01"
+cat_code: "397-MH (P)"
+cbp_code: "BCIN CH02"
+image: "Deganat.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:

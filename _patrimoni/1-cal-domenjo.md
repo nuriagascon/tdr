@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL DOMENJÓ"
+alt_title: null
+class: "Conjunt"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX07"
+image: "Cal_Domenjo.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

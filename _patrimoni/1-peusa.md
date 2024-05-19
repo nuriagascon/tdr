@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EDIFICI PEUSA"
+alt_title: "Cal Calçot"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX11"
+image: "PEUSA.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

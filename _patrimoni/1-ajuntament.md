@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "AJUNTAMENT DE LA SEU D'URGELL"
+alt_title: "Casa de la Ciutat"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH02"
+image: "Ajuntament.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

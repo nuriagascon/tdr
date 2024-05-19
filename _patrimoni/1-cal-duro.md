@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL DURÓ"
+alt_title: "Forn vell"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX05"
+image: "Cal_Duro.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

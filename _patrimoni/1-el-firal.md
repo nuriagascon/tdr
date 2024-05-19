@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "EL FIRAL"
+alt_title: "Bòbila del Domenjó"
+class: "Jaciment"
+area: 12467.49
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "PP EX01"
+image: "El_Firal.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

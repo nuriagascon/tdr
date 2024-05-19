@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESGLÉSIA DE SANT DOMÈNEC"
+alt_title: null
+class: "Edifici"
+area: null
+protection: "BCIL"
+addition_date: "2005-03-07"
+cat_code: "424-I"
+cbp_code: "BCIL CH08"
+image: "St_Domenec.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:
   - group1:

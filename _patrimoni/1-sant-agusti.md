@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESGLÉSIA DE SANT AGUSTÍ"
+alt_title: null
+class: "Edifici"
+area: null
+protection: "BCIL"
+addition_date: "2010-05-03"
+cat_code: "2995-I"
+cbp_code: "BCIL CH07"
+image: "St_Agusti.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:
   - group1:

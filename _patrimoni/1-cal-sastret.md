@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL SASTRET"
+alt_title: "Canigó"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX10"
+image: "Cal_Sastret.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

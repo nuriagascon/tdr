@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ANTIC JUTJAT"
+alt_title: "Camp de les Tombes"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH06"
+image: "Antics_Jutjats.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

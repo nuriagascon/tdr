@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "PAVELLONS MILITARS"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV EX03"
+image: "Pavellons.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

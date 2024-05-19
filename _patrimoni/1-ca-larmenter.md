@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CA L'ARMENTER"
+alt_title: "Casa del papa Luna"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH12"
+image: "Cal_Armenter.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

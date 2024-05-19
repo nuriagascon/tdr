@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CATEDRAL DE SANTA MARIA D'URGELL"
+alt_title: null
+class: "Monument Històric"
+area: null
+protection: "BCIN"
+addition_date: "1936-06-03"
+cat_code: "211-MH"
+cbp_code: "BCIN CH01"
+image: "Catedral.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-existents"]
 coordinates:
   - group1:

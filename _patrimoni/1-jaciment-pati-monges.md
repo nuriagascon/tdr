@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "JACIMENT DEL PATI DE LES MONGES"
+alt_title: null
+class: "Jaciment"
+area: 754.17
+protection: "BCIL"
+addition_date: "2021-06-07"
+cat_code: "15788-I"
+cbp_code: null
+image: "Pati_Monges.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic", "bcil-existents"]
 coordinates:
   - group1:

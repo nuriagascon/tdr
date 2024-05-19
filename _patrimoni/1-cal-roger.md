@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL ROGER"
+alt_title: "Casa dels Pelegrins"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH14"
+image: "Cal_Roger.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

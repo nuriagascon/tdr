@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CONVENT DE LA SAGRADA FAMÍLIA"
+alt_title: "Convent de la Punxa"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL EX06"
+image: "Convent_La_Punxa.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

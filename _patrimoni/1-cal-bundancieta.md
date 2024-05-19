@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL BUNDANCIETA"
+alt_title: null
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CH08"
+image: "Cal_Bundancieta.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

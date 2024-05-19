@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ANTIGA ESGLÉSIA DE LA IMMACULADA"
+alt_title: null
+class: "Edifici"
+area: null
+protection: "BCIL"
+addition_date: "2003-03-03"
+cat_code: "263-I"
+cbp_code: "BCIL CH20"
+image: "La_Immaculada.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL DUAT"
+alt_title: "Forn vell"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "INV CB03"
+image: "Cal_Duat.jpg"
+card: null
 collections: ["patrimoni-arquitectonic"]
 coordinates:
   - group1:

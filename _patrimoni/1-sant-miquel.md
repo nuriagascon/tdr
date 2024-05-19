@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "ESGLÉSIA DE SANT MIQUEL"
+alt_title: null
+class: "Monument històric"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIN CH04"
+image: "St_Miquel.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcin-previstos-cbp"]
 coordinates:
   - group1:

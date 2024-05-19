@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "JACIMENT DEL CLAUSTRE DE LA CATEDRAL"
+alt_title: null
+class: "Jaciment"
+area: 1113.14
+protection: "BCIN"
+addition_date: "1936-06-03"
+cat_code: "211-MH"
+cbp_code: "PA CH03"
+image: "Claustre_Catedral.jpg"
+card: null
 collections: ["patrimoni-arqueologic-i-paleontologic"]
 coordinates:
   - group1:

@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "CAL RISPA"
+alt_title: "Ca l'Advocat Ferrer"
+class: "Edifici"
+area: null
+protection: null
+addition_date: null
+cat_code: null
+cbp_code: "BCIL CH22"
+image: "Cal_Rispa.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-previstos-cbp"]
 coordinates:
   - group1:

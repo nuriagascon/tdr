@@ -1,6 +1,15 @@
 ---
 layout: patrimoni-details
 title:  "SEU DEL CONSELL COMARCAL DE L'ALT URGELL"
+alt_title: "Torre Alsina"
+class: "Edifici"
+area: null
+protection: "BCIL"
+addition_date: "2006-05-08"
+cat_code: "459-I"
+cbp_code: "BCIL EX03"
+image: "CCAU.jpg"
+card: null
 collections: ["patrimoni-arquitectonic", "bcil-existents"]
 coordinates:
   - group1:
