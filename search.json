@@ -7,7 +7,7 @@ layout: none
 {% for patrimoni in sortedPatrimonis %}
 {
 "title"    : "{{ patrimoni.title }}",
-"url"      : "{{ patrimoni.baseurl }}{{ patrimoni.url }}"
+"url"      : "{{ patrimoni.url }}"
 } {% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]

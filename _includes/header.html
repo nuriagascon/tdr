@@ -3,15 +3,15 @@
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="{{ site.baseurl }}/js/search/simple-jekyll-search.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/search/search-buttons.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/collapsibles.js"></script>
-<script type="text/javascript" src="{{ site.baseurl }}/js/side-panel.js"></script>
+<script type="text/javascript" src="/js/search/simple-jekyll-search.js"></script>
+<script type="text/javascript" src="/js/search/search-buttons.js"></script>
+<script type="text/javascript" src="/js/collapsibles.js"></script>
+<script type="text/javascript" src="/js/side-panel.js"></script>
 
 <div class="header">
     <button id="open-panel-button"><span class="material-symbols-outlined">menu</span></button>
-    <h1 class="title long"><a href="{{ site.url }}">{{ site.title }}</a></h1>
-    <h1 class="title short"><a href="{{ site.url }}">{{ site.short_title }}</a></h1>
+    <h1 class="title long"><a href="">{{ site.title }}</a></h1>
+    <h1 class="title short"><a href="">{{ site.short_title }}</a></h1>
     <div class="search desktop">
         <div class="search-wrapper">
             <div class="search-bar">
@@ -35,8 +35,8 @@
         <button id="close-panel-button"><span class="material-symbols-outlined">close</span></button>
     </div>
     <div class="side-panel-content">
-        <a href="{{ site.url }}"><button>Inici</button></a>
-        <a href="{{ site.url }}/about"><button>Sobre el Geoportal</button></a>
+        <a href=""><button>Inici</button></a>
+        <a href="/about"><button>Sobre el Geoportal</button></a>
         <button class="collapsible">Contingut</button>
         <div class="content">
             {% assign sortedPatrimonis = site.patrimoni | sort: 'title' %}
@@ -51,7 +51,7 @@
     window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '{{ site.url }}/search.json',
+        json: '/search.json',
         searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
         noResultsText: "<li><a>No s'ha trobat cap resultat</a></li>",
         limit: 5,
