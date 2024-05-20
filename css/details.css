@@ -7,6 +7,7 @@
     height: 100% !important;
     margin: 0 !important;
     width: 50%;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .2);
 }
 
 .description {
@@ -40,5 +41,18 @@
 @media only screen and (min-width: 1160px){
     .title.mobile {
         display: none;
+    }
+
+    .description-content {
+        display: flex;
+    }
+    .description-content .text {
+        min-width: 30%;
+    }
+    .description-content .images {
+        flex-grow: 1;
+    }
+    .description-content .images img {
+        width: 50%;
     }
 }
