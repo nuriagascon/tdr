@@ -18,26 +18,9 @@ layout: home
     {% assign total_points = 0 %}
 
     {% for place in site.patrimoni %}
-        {% for group in place.coordinates %}
-            {% assign group_lat = 0 %}
-            {% assign group_lon = 0 %}
-            {% assign group_size = 0 %}
-
-            {% for point in group %}
-                {% for coord in point[1] %}
-                    {% assign group_lat = group_lat | plus: coord[1] %}
-                    {% assign group_lon = group_lon | plus: coord[0] %}
-                    {% assign group_size = group_size | plus: 1 %}
-                {% endfor %}
-            {% endfor %}
-
-            {% assign group_avg_lat = group_lat | divided_by: group_size %}
-            {% assign group_avg_lon = group_lon | divided_by: group_size %}
-
-            {% assign total_lat = total_lat | plus: group_avg_lat %}
-            {% assign total_lon = total_lon | plus: group_avg_lon %}
-            {% assign total_points = total_points | plus: 1 %}
-        {% endfor %}
+        {% assign total_lon = total_lon | plus: place.position[0] %}
+        {% assign total_lat = total_lat | plus: place.position[1] %}
+        {% assign total_points = total_points | plus: 1 %}
     {% endfor %}
 
     {% assign center_lat = total_lat | divided_by: total_points %}
@@ -45,29 +28,19 @@ layout: home
 
     {% leaflet_map { "center": [{{ center_lat }}, {{ center_lon }}], "needsLayers": true } %}
     {% for place in site.patrimoni %}
-        {% capture geojson %}
-            {% for group in place.coordinates %}
-                [
-                {% for key in group %}
-                    {% for coord in key[1] %}
-                        [{{ coord[0] }}, {{ coord[1] }}],
-                    {% endfor %}
-                {% endfor %}
-                ],
-            {% endfor %}
-        {% endcapture %}
-
         {% for collect in place.collections %}
             {% leaflet_geojson {
-                    "type": "Feature",
-                    "properties": { "popupContent": "{{ place.title }}",
+                "type": "Feature",
+                    "properties": {
+                    "popupContent": "{{ place.title }}",
                     "href": "{{ place.url }}",
-                    "pane": "{{ collect }}" },
-                    "geometry": {
-                    "type": "MultiPolygon",
-                    "coordinates": [[
-            {{ geojson }}
-                    ]] } } %}
+                    "pane": "{{ collect }}"
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": {{ place.position }}
+                }
+            } %}
         {% endfor %}
     {% endfor %}
     {% endleaflet_map %}
