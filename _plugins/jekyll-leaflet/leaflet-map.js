@@ -21,9 +21,6 @@
 
     var newWindowImgSrcBase64 = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAB3RJTUUH4wUVFzAHq2j99AAAAV9JREFUSMdjYKAxYCRHk5ubG9+1a9fm/v//H6cadnb2G/fu3atlIceC379/c3z9+jUEn5q/f/8eYWBgYECxQE5OroqA2Y8ePXq0hJWV9Qc3N/caZB8wMjJKff361QpvEAkKCv4nYMGh9+/f26MLamhoyLx9+3b/nz9/VJCC6MiLFy9sWXCE3xlGRsZvWKQu4DOciYnpCzc396HPnz97weRxWRD/8OHDa4TiAt1wfn5+z79//zoxMDDALWAiN/lhM/zevXtH0NUx0dJwsiwgxXCccUCJ4dzc3DP+//+/gZ2d/duLFy9Is+Djx4+rCbn82rVrrxgYGF6RFUR8fHyZbGxsD7AZLiEhUSAiIrJSUlIyjOw4uHnz5gVHR0d1bC7/8+eP5d+/f8P+/PmjS1Ekr1ix4hcp6ploXVwPfQuwJlMmJiYBLS0tIVIMev36NRvRFnz48OHohw8fhkYQjQKCAAChiL6Pj/LM2QAAAABJRU5ErkJggg==";
 
-    var bcil_existents, bcil_previstos_cbp, bcin_existents, bcin_previstos_cbp, patrimoni_arqueologic_i_paleontologic,
-        patrimoni_arquitectonic;
-
 // Actual mapping section; Specify a function to be called later that
 // assembles the correct JS components based on what the user specified in the
 // tag input arg, the block section of features, etc. Actually creates the map
@@ -35,15 +32,6 @@
             return tagInputArg.center;
         } else {
             return defaultCenter;
-        }
-    }
-
-    function _needsLayers() {
-        var defaultNeeds = false;
-        if ("needsLayers" in tagInputArg) {
-            return tagInputArg.needsLayers;
-        } else {
-            return defaultNeeds;
         }
     }
 
@@ -109,71 +97,12 @@
         }
     }
 
-    function _createPane(map, name) {
-        const zIndexMap = {
-            "bcil-existents": 408,
-            "bcil-previstos-cbp": 405,
-            "bcin-existents": 408,
-            "bcin-previstos-cbp": 407,
-            "patrimoni-arqueologic-i-paleontologic": 403,
-            "patrimoni-arquitectonic": 404
-        };
-
-        if (!(name in zIndexMap)) {
-            throw `Pane with name: ${name} is not supported`;
-        }
-
-        map.createPane(name);
-        map.getPane(name).style.zIndex = zIndexMap[name];
-    }
-
-    function _style(name) {
-        const baseStyle = {
-            pane: name,
-            opacity: 1,
-            color: "rgba(35,35,35,1.0)",
-            dashArray: "",
-            lineCap: "butt",
-            lineJoin: "miter",
-            weight: 1.0,
-            fill: true,
-            interactive: true
-        };
-
-        const styles = {
-            "bcil-existents": { fillOpacity: 1, fillColor: "rgb(219,35,127)" },
-            "bcil-previstos-cbp": { fillOpacity: 1, fillColor: "rgb(233,135,219)" },
-            "bcin-existents": { fillOpacity: 1, fillColor: "rgb(103,88,150)" },
-            "bcin-previstos-cbp": { fillOpacity: 1, fillColor: "rgb(151,124,184)" },
-            "patrimoni-arqueologic-i-paleontologic": { fillOpacity: 0.5, fillColor: "rgb(241,253,6)" },
-            "patrimoni-arquitectonic": { fillOpacity: 0.7, fillColor: "rgb(171,138,20)" }
-        };
-
-        return { ...baseStyle, ...styles[name] };
-    }
-
-    function _overlayLayer(name){
-        switch(name){
-            case "bcil-existents": return bcil_existents;
-            case "bcil-previstos-cbp": return bcil_previstos_cbp;
-            case "bcin-existents": return bcin_existents;
-            case "bcin-previstos-cbp": return bcin_previstos_cbp;
-            case "patrimoni-arqueologic-i-paleontologic": return patrimoni_arqueologic_i_paleontologic;
-            case "patrimoni-arquitectonic": return patrimoni_arquitectonic;
-        }
-    }
-
     function _addGeoJSONObjToMap(leafletItem, map) {
         var geojson;
         if(leafletItem.value.properties != null && leafletItem.value.properties.pane != null){
             geojson = L.geoJSON(leafletItem.value, {
                 onEachFeature: _onEachFeature,
-                style: _style(leafletItem.value.properties.pane)
             });
-
-            if(map.getPane(leafletItem.value.properties.pane) == null){
-                _createPane(map, leafletItem.value.properties.pane);
-            }
         }else{
             geojson = L.geoJSON(leafletItem.value, {
                 onEachFeature: _onEachFeature
@@ -190,10 +119,7 @@
             }
         }
 
-        if(leafletItem.value.properties != null && leafletItem.value.properties.pane != null)
-            geojson.addTo(_overlayLayer(leafletItem.value.properties.pane));
-        else
-            geojson.addTo(map);
+        geojson.addTo(map);
 
     }
 
@@ -251,13 +177,6 @@
         var orthographic = L.tileLayer.provider("Geoservei.Orto");
         var orthographicGray = L.tileLayer.provider("Geoservei.OrtoGris");
 
-        bcil_existents = L.layerGroup();
-        bcil_previstos_cbp = L.layerGroup();
-        bcin_existents = L.layerGroup();
-        bcin_previstos_cbp = L.layerGroup();
-        patrimoni_arqueologic_i_paleontologic = L.layerGroup().addTo(map);
-        patrimoni_arquitectonic = L.layerGroup().addTo(map);
-
         //process each Leaflet Item passed in between the block tag middle
         for (var i = 0; i < blockLeafletItems.length; i++) {
             var leafletItem = blockLeafletItems[i];
@@ -271,20 +190,7 @@
             "Ortofoto Gris": orthographicGray,
         };
 
-        var overlayMaps = {
-            "Patrimoni Arqueològic i Paleontològic": patrimoni_arqueologic_i_paleontologic,
-            "Patrimoni Arquitectònic": patrimoni_arquitectonic,
-            "BCIL Existents": bcil_existents,
-            "BCIL Previstos CBP": bcil_previstos_cbp,
-            "BCIN Existents": bcin_existents,
-            "BCIN Previstos CBP": bcin_previstos_cbp,
-        };
-
-        if(_needsLayers()){
-            L.control.layers(baseLayers, overlayMaps).addTo(map);
-        }else{
-            L.control.layers(baseLayers, null).addTo(map);
-        }
+        L.control.layers(baseLayers, null).addTo(map);
 
         var combinedBounds = calculateCombinedBounds(map);
         map.fitBounds(combinedBounds);
