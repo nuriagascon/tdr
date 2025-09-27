@@ -8,7 +8,7 @@ layout: home
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
 {% include header.html %}
@@ -28,20 +28,17 @@ layout: home
 
     {% leaflet_map { "center": [{{ center_lat }}, {{ center_lon }}], "needsLayers": true } %}
     {% for place in site.spots %}
-        {% for collect in place.collections %}
-            {% leaflet_geojson {
-                "type": "Feature",
-                    "properties": {
-                    "popupContent": "{{ place.title }}",
-                    "href": "{{ place.url }}",
-                    "pane": "{{ collect }}"
-                },
-                "geometry": {
-                    "type": "Point",
-                    "coordinates": {{ place.position }}
-                }
-            } %}
-        {% endfor %}
+        {% leaflet_geojson {
+            "type": "Feature",
+                "properties": {
+                "popupContent": "{{ place.title }}",
+                "href": "/tdr{{ place.url }}"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": {{ place.position }}
+            }
+        } %}
     {% endfor %}
     {% endleaflet_map %}
 </div>

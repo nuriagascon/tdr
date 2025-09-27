@@ -1,17 +1,17 @@
-<link rel="stylesheet" href="/css/search.css">
-<link rel="stylesheet" href="/css/header.css">
+<link rel="stylesheet" href="{{ '/css/search.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/css/header.css' | relative_url }}">
 
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
-<script type="text/javascript" src="/js/search/simple-jekyll-search.js"></script>
-<script type="text/javascript" src="/js/search/search-buttons.js"></script>
-<script type="text/javascript" src="/js/collapsibles.js"></script>
-<script type="text/javascript" src="/js/side-panel.js"></script>
+<script type="text/javascript" src="{{ '/js/search/simple-jekyll-search.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/js/search/search-buttons.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/js/collapsibles.js' | relative_url }}"></script>
+<script type="text/javascript" src="{{ '/js/side-panel.js' | relative_url }}"></script>
 
 <div class="header">
     <button id="open-panel-button"><span class="material-symbols-outlined">menu</span></button>
-    <h1 class="title long"><a href="/">{{ site.title }}</a></h1>
-    <h1 class="title short"><a href="/">{{ site.short_title }}</a></h1>
+    <h1 class="title long"><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+    <h1 class="title short"><a href="{{ site.baseurl }}/">{{ site.short_title }}</a></h1>
     <div class="search desktop">
         <div class="search-wrapper">
             <div class="search-bar">
@@ -35,13 +35,13 @@
         <button id="close-panel-button"><span class="material-symbols-outlined">close</span></button>
     </div>
     <div class="side-panel-content">
-        <a href="/"><button>Inici</button></a>
-        <a href="/about"><button>Sobre el Geoportal</button></a>
+        <a href="{{ site.baseurl }}/"><button>Inici</button></a>
+        <a href="{{ site.baseurl }}/about"><button>Sobre la web</button></a>
         <button class="collapsible">Contingut</button>
         <div class="content">
             {% assign sortedSpots = site.spots | sort: 'title' %}
             {% for place in sortedSpots %}
-            <a href="{{ place.url }}" class="place-link"><button>{{ place.title }}</button></a>
+                <a href="{{ site.baseurl }}{{ place.url }}" class="place-link"><button>{{ place.title }}</button></a>
             {% endfor %}
         </div>
     </div>
@@ -51,8 +51,8 @@
     window.simpleJekyllSearch = new SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
-        json: '/search.json',
-        searchResultTemplate: '<li><a href="{url}" title="{title}">{title}</a></li>',
+        json: '{{ '/search.json' | relative_url }}',
+        searchResultTemplate: '<li><a href="{{site.baseurl}}{url}" title="{title}">{title}</a></li>',
         noResultsText: "<li><a>No s'ha trobat cap resultat</a></li>",
         limit: 5,
         fuzzy: true

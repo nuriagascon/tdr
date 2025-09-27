@@ -1,8 +1,8 @@
-title: Geoportal de la Seu d'Urgell
-short_title: Geoportal
+title: Lorem Ipsum
+short_title: Lorem Ipsum
 
-baseurl: ""
-url: ""
+baseurl: "/tdr"
+url: "nuriagascon.github.io"
 
 collections:
   spots:

@@ -13,6 +13,7 @@
 .description {
     flex-grow: 1;
     padding: 16px;
+    width: 50%;
 }
 
 .description h1 {
@@ -36,6 +37,9 @@
         width: 100%;
         height: 40lvh !important;
     }
+    .description {
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 1160px){
@@ -45,9 +49,6 @@
 
     .description-content {
         display: flex;
-    }
-    .description-content .text {
-        min-width: 30%;
     }
     .description-content .images {
         flex-grow: 1;

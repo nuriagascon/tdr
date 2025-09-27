@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title }}</title>
 
-    <link rel="stylesheet" href="/css/details.css">
+    <link rel="stylesheet" href="{{ '/css/details.css' | relative_url }}">
 </head>
 <body>
 {% include header.html %}
@@ -27,45 +27,10 @@
         <div class="description">
             <h1 class="title desktop">{{ page.title }}</h1>
             <div class="description-content">
-                <div class="text">
-                    {% if page.alt_title %}
-                        <h2>Altres noms</h2>
-                        <blockquote><p>{{ page.alt_title }}</p></blockquote>
-                    {% endif %}
-                    {% if page.class %}
-                        <h2>Classe</h2>
-                        <blockquote><p>{{ page.class }}</p></blockquote>
-                    {% endif %}
-                    {% if page.area %}
-                        <h2>Àrea (m<sup>2</sup>)</h2>
-                        <blockquote><p>{{ page.area }}</p></blockquote>
-                    {% endif %}
-                    {% if page.protection %}
-                        <h2>Protecció</h2>
-                        <blockquote><p>{{ page.protection }}</p></blockquote>
-                    {% endif %}
-                    {% if page.addition_date %}
-                        <h2>Data</h2>
-                        <blockquote><p>{{ page.addition_date }}</p></blockquote>
-                    {% endif %}
-                    {% if page.cat_code %}
-                        <h2>Nº reg/cat</h2>
-                        <blockquote><p>{{ page.cat_code }}</p></blockquote>
-                    {% endif %}
-                    {% if page.cbp_code %}
-                        <h2>Codi CBP</h2>
-                        <blockquote><p>{{ page.cbp_code }}</p></blockquote>
-                    {% endif %}
-                    {% if page.card %}
-                        <h2>Fitxa</h2>
-                        <blockquote><p>{{ page.card }}</p></blockquote>
-                    {% endif %}
-                </div>
                 <div class="images">
                     {% if page.image %}
-                        <h2>Imatges</h2>
-                        <a href="/assets/images/{{page.image}}" target="_blank">
-                            <img src="/assets/images/{{page.image}}">
+                        <a href="{{site.baseurl}}/assets/images/{{page.image}}" target="_blank">
+                            <img src="{{site.baseurl}}/assets/images/{{page.image}}">
                         </a>
                     {% endif %}
                 </div>
