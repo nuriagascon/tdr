@@ -5,5 +5,5 @@ baseurl: ""
 url: ""
 
 collections:
-  patrimoni:
+  spots:
     output: true

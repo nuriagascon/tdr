@@ -39,8 +39,8 @@
         <a href="/about"><button>Sobre el Geoportal</button></a>
         <button class="collapsible">Contingut</button>
         <div class="content">
-            {% assign sortedPatrimonis = site.patrimoni | sort: 'title' %}
-            {% for place in sortedPatrimonis %}
+            {% assign sortedSpots = site.spots | sort: 'title' %}
+            {% for place in sortedSpots %}
             <a href="{{ place.url }}" class="place-link"><button>{{ place.title }}</button></a>
             {% endfor %}
         </div>

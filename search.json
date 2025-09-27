@@ -3,11 +3,11 @@ layout: none
 ---
 [
 
-{% assign sortedPatrimonis = site.patrimoni | sort: 'title' %}
-{% for patrimoni in sortedPatrimonis %}
+{% assign sortedSpots = site.spots | sort: 'title' %}
+{% for spot in sortedSpots %}
 {
-"title"    : "{{ patrimoni.title }}",
-"url"      : "{{ patrimoni.url }}"
+"title"    : "{{ spot.title }}",
+"url"      : "{{ spot.url }}"
 } {% unless forloop.last %},{% endunless %}
 {% endfor %}
 ]
