@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "ESGLESIA SANTA MAGDALENA"
-image: "Centre_Historic.jpg"
+image: "DSC_0894.JPG"
 position: [ 1.459674899942919, 42.359267830334325 ]
 ---
 
