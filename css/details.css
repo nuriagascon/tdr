@@ -22,6 +22,26 @@
     display: table;
 }
 
+.description .image {
+    float: left;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    width: 50%;
+}
+
+.description .image img {
+    width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+    .description .image {
+        float: none;
+        width: 100%;
+        margin-left: unset;
+        margin-right: unset;
+    }
+}
+
 @media only screen and (max-width: 1160px){
     .title.desktop {
         display: none;
@@ -45,15 +65,5 @@
 @media only screen and (min-width: 1160px){
     .title.mobile {
         display: none;
-    }
-
-    .description-content {
-        display: flex;
-    }
-    .description-content .images {
-        flex-grow: 1;
-    }
-    .description-content .images img {
-        width: 50%;
     }
 }
