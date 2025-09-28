@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "CA LA JARDINERA"
-image: "Centre_Historic.jpg"
+image: "DSC_0909.JPG"
 position: [ 1.459674899942919, 42.359267830334325 ]
 ---
 
