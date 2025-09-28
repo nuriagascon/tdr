@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "HOTEL NICE"
-image: "Centre_Historic.jpg"
+image: "mail.google.jpg"
 position: [ 1.459674899942919, 42.359267830334325 ]
 ---
 
