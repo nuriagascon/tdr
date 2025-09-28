@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "CAL FITER"
-image: "Centre_Historic.jpg"
+image: "DSC_0895.JPG"
 position: [ 1.459674899942919, 42.359267830334325 ]
 ---
 
