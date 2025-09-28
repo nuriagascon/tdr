@@ -1,36 +1,19 @@
 ---
 layout: patrimoni-details
 title: "GARATGE CAL MOLINES"
-image: "Centre_Historic.jpg"
+image: "DSC_0914.JPG"
 position: [ 1.459674899942919, 42.359267830334325 ]
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu egestas lacus. Duis mollis fermentum varius. Praesent
-porta faucibus felis, ac volutpat dui pretium et. Aenean imperdiet pulvinar nisi id fermentum. Mauris lacinia, quam id
-tristique feugiat, nisl ante dictum velit, gravida consectetur massa eros quis metus. Nunc semper ante odio, eu
-vestibulum diam posuere nec. In hac habitasse platea dictumst.
+Garatge de planta baixa i un pis. A la planta baixa s’hi troba la porta del garatge de forma rectangular
+coronada amb un arc rebaixat, i una porta d’accés al pis superior a la part esquerra, també rectangular. 
+Al pis de sobre hi han quatre finestres, juntes, sobre la porta del garatge, i una separada que queda sobre
+la porta d’accés. Totes cinc tenen la mateixa forma rectangular. 
 
-Etiam lobortis urna ut consectetur varius. Integer non dictum neque. Maecenas in dui nec arcu consectetur lacinia a a
-augue. Nullam eu nibh nec ipsum laoreet cursus id sit amet elit. Pellentesque vel posuere lectus. Phasellus vel molestie
-elit. Nam a nulla libero. Phasellus ac posuere elit. Phasellus id arcu consequat, varius magna pharetra, tristique
-turpis. Sed ac tortor molestie, molestie neque ut, euismod mauris. Etiam sagittis nunc lorem, sit amet porta diam rutrum
-ac.
+Totes les façanes presenten un parament amb peces de granit en disposició irregular i la coberta de pissarra
+i de doble vessant. Totes les obertures estan emmarcades, les de les finestres per motllures llises, i les de
+les portes per motllures de perfil en forma de merlets, al igual que el contorn de la façana. 
 
-Sed vulputate, lorem eget pellentesque facilisis, felis mauris interdum nunc, eget porttitor tellus lectus vitae lectus.
-Duis quis sem accumsan, egestas tellus id, fermentum massa. Nulla massa turpis, porttitor eget ipsum non, sodales congue
-magna. Mauris cursus metus vel viverra tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada
-fames ac turpis egestas. Pellentesque et neque fermentum, euismod augue ut, dapibus ante. Phasellus et aliquam libero.
-Maecenas vestibulum, tortor eu convallis congue, justo felis ullamcorper justo, a maximus velit magna vitae sem. Vivamus
-dignissim, nulla nec viverra vestibulum, augue sem gravida enim, nec ultrices diam urna fermentum justo. Phasellus diam
-enim, hendrerit quis erat nec, accumsan facilisis odio. Duis tincidunt pretium fringilla. Pellentesque vehicula eget
-diam quis lobortis.
+Tant les portes com les finestres son de color marró, que contrasta amb el gris del granit. 
 
-Aenean at imperdiet ipsum. Fusce ac augue consequat mi pellentesque eleifend tempor sed est. Nunc ut tempor turpis, ut
-congue mauris. Sed imperdiet mollis dui eu rutrum. Praesent fermentum mattis nulla, eu sodales neque lacinia sed. In
-eget tortor sit amet ipsum pellentesque facilisis. Sed facilisis ullamcorper neque, consequat euismod elit condimentum
-quis. Vivamus id dapibus tellus, sed ornare mi. In tincidunt, justo at tempus mattis, odio odio finibus dolor, non
-scelerisque risus sapien quis neque. Donec viverra fermentum sem, sit amet blandit nisl convallis eget.
-
-Cras non quam velit. Nunc venenatis consequat venenatis. In porttitor ante et imperdiet suscipit. Morbi in lacinia
-mauris. Etiam at neque non sapien vulputate venenatis. Aenean consequat quam justo, sed lacinia eros volutpat nec. Donec
-laoreet posuere neque vel porttitor.
+Segons el projecte arquitectònic el garatge mesura 105 metres quadrats. 
