@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "CAL MOLINES"
 image: "0.jpg"
-position: [ 1.459674899942919, 42.359267830334325 ]
+position: [ 373086.23,4690667.52 ]
 ---
 
 Casa aïllada de planta baixa i un pis. Esta format per dues naus paral·leles de forma rectangular i llargàries desiguals,
