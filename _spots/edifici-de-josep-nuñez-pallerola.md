@@ -11,3 +11,4 @@ Josep Nuñez Pallerola era fill d’un funcionari de presons i d’una veïna de
 
 Com a anècdota personal podria dir que Aurora Gascón era germana del meu avi.
 
+
