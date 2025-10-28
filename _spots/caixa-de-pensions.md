@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "CAIXA DE PENSIONS"
-image: "20250722151215256_0001.jpg"
+image: "20250722151215256_0002.jpg"
 position: [ 1.459674899942919, 42.359267830334325 ]
 ---
 
