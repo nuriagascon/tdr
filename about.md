@@ -1,36 +1,17 @@
 ---
 layout: about
-title: Sobre la web
+title: Biografia de Josep Brugal
 ---
 
-# Lorem Ipsum
+# Biografia de Josep Brugal
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean eu egestas lacus. Duis mollis fermentum varius. Praesent
-porta faucibus felis, ac volutpat dui pretium et. Aenean imperdiet pulvinar nisi id fermentum. Mauris lacinia, quam id
-tristique feugiat, nisl ante dictum velit, gravida consectetur massa eros quis metus. Nunc semper ante odio, eu
-vestibulum diam posuere nec. In hac habitasse platea dictumst.
-
-Etiam lobortis urna ut consectetur varius. Integer non dictum neque. Maecenas in dui nec arcu consectetur lacinia a a
-augue. Nullam eu nibh nec ipsum laoreet cursus id sit amet elit. Pellentesque vel posuere lectus. Phasellus vel molestie
-elit. Nam a nulla libero. Phasellus ac posuere elit. Phasellus id arcu consequat, varius magna pharetra, tristique
-turpis. Sed ac tortor molestie, molestie neque ut, euismod mauris. Etiam sagittis nunc lorem, sit amet porta diam rutrum
-ac.
-
-Sed vulputate, lorem eget pellentesque facilisis, felis mauris interdum nunc, eget porttitor tellus lectus vitae lectus.
-Duis quis sem accumsan, egestas tellus id, fermentum massa. Nulla massa turpis, porttitor eget ipsum non, sodales congue
-magna. Mauris cursus metus vel viverra tincidunt. Pellentesque habitant morbi tristique senectus et netus et malesuada
-fames ac turpis egestas. Pellentesque et neque fermentum, euismod augue ut, dapibus ante. Phasellus et aliquam libero.
-Maecenas vestibulum, tortor eu convallis congue, justo felis ullamcorper justo, a maximus velit magna vitae sem. Vivamus
-dignissim, nulla nec viverra vestibulum, augue sem gravida enim, nec ultrices diam urna fermentum justo. Phasellus diam
-enim, hendrerit quis erat nec, accumsan facilisis odio. Duis tincidunt pretium fringilla. Pellentesque vehicula eget
-diam quis lobortis.
-
-Aenean at imperdiet ipsum. Fusce ac augue consequat mi pellentesque eleifend tempor sed est. Nunc ut tempor turpis, ut
-congue mauris. Sed imperdiet mollis dui eu rutrum. Praesent fermentum mattis nulla, eu sodales neque lacinia sed. In
-eget tortor sit amet ipsum pellentesque facilisis. Sed facilisis ullamcorper neque, consequat euismod elit condimentum
-quis. Vivamus id dapibus tellus, sed ornare mi. In tincidunt, justo at tempus mattis, odio odio finibus dolor, non
-scelerisque risus sapien quis neque. Donec viverra fermentum sem, sit amet blandit nisl convallis eget.
-
-Cras non quam velit. Nunc venenatis consequat venenatis. In porttitor ante et imperdiet suscipit. Morbi in lacinia
-mauris. Etiam at neque non sapien vulputate venenatis. Aenean consequat quam justo, sed lacinia eros volutpat nec. Donec
-laoreet posuere neque vel porttitor.
+Josep Brugal va néixer el 4 d’abril de 1911 a Vilafranca del Penedès.  El seu pare, Albert Brugal, era veterinari de Vilafranca del Penedès, i havia tingut un germà que va començar a estudiar medicina, però va morir a causa d’una insolació abans d’acabar la carrera.  Era fill d’una família relativament acomodada i ben relacionada amb l’església. El seu oncle, germà de la mare, Teresa Fortuny, era capellà.  En aquest sentit, quan era encara estudiant d’Arquitectura, trobem el seu nom en un periòdic catòlic de Vilafranca del Penedès com a membre d’un jurat d’un concurs de pessebres. 
+Ell mai va estar interessat en les ciències de la salut, a diferència del seu pare i el seu germà, en canvi, ell va estar sempre interessat per temes d’enginyeria i li agradava molt el dibuix.  Segurament per aquest motiu va estudiar arquitectura a la Universitat de Barcelona.  No s’ha pogut localitzar el títol de llicenciatura a l’arxiu de la Universitat de Barcelona, però l’any 1935 consta que ja era arquitecte perquè hi ha una notícia on s’explica que ell acompanyat de Lluís Güell van fer una obra a Vilafranca del Penedès que consistia en la restauració de la Capella del Remei de manera desinteressada, demostrant un altre cop la bona relació de Josep Brugal amb l’església. 
+L’any 1936 va començar la Guerra Civil Espanyola i Josep Brugal es va mantenir fidel al govern Republicà. Aprofitant la seva formació com a arquitecte va sol·licitar formar part del cos d’obres i fortificacions de l’exèrcit republicà, on va estar durant la resta de la guerra. 
+Malgrat que Brugal era membre d’una família catòlica i que el seu oncle, capellà fos assassinat durant la guerra pels anarquistes, el seu pas per l’exèrcit republicà va provocar que fos represaliat per les noves autoritats franquistes. Per aquest motiu va haver de tornar-se a treure el títol en Arquitectura i per poder exercir com a arquitecte es va haver de fer de la Falange. 
+En aquests moments ja vivia i treballava a Barcelona, però mantenia un gran vincle amb la seva vila natal, a través d’obres tan importants com la restauració de la basílica de Santa Maria, incendiada durant els Fets d’Octubre de 1934, que va assumir Josep Brugal l’any 1942, després d’una breu intervenció de Jeroni Martorell,  o el projecte original del museu del vi de Vilafranca del Penedès, que ja havia fet el 1952. 
+Cap a 1945, acabada la Segona Guerra Mundial, Josep Brugal entra en contacte amb la Seu d’Urgell i el Pirineu a través d’un projecte que li encomana el Dr. Xavier Maestre, Metge andorrà, fill d’una ca sa forta de les Valls amb propietats a la Seu d’Urgell. El contacte va arribar a través del cunyat del metge andorrà, Dr. Pal, que era oculista, vivia a Barcelona i era un amic molt proper de l’Albert Brugal, pare de l’arquitecte. Xavier Maestre es volia fer una casa a la Seu i va encomanar el projecte a Josep Brugal. En aquell moment de la postguerra, era molt complicat desplaçar-se al Pirineu des de Barcelona, però Josep Brugal ho va poder fer perquè s’havia comprat un cotxe. El fill de l’arquitecte, Lluís Brugal, que l’acompanyava, explica que necessitaven un salconduit per poder anar a un lloc tan proper amb la frontera de França, i que s’allotjaven a la casa que ja tenia la família Molines a la Seu durant tot l’estiu. 
+Arran del projecte de cal Molines, Josep Brugal es va tornar un arquitecte molt popular a la Seu, i li van començar a encomanar més projectes, segons explicaré més endavant. Així mateix, es va implicar molt en la vida quotidiana de la ciutat, per exemple dissenyant l’antic dibuix de la Serra del Cadí que durant molt temps va il·lustrar les caixes de mantega de la Cooperativa Cadí. 
+També el projecte de cal Molines li va servir per començar a fer projectes a Andorra, ja que Xavier Maestre era una persona amb molta influencia a les Valls, en un moment en què l’economia d’Andorra estava evolucionant cap a un creixement sostingut. L’arquitecte andorrà Enric Dilmé en un treball recent va identificar sis projectes arquitectònics de Josep Brugal realitzats entre els anys 1958 i 1967 a Andorra la Vella i a Escaldes Engordany, entre els quals destaquen la caixa d’estalvis i pensions de la plaça Rebés d’Andorra la Vella (1958) i l’ampliació de l’església de Sant Esteve també a Andorra la Vella.  En la investigació que he realitzat per la preparació d’aquest treball, he descobert que Josep Brugal va tenir un paper encara més rellevant en la definició del primer eixample urbanístic d’Andorra la Vella, a partir dels anys 50, amb el disseny de la plaça Rebés i el projecte de l’antiga clínica Vilanova, que és un dels principals exemples de l’arquitectura del granit a Andorra la Vella.  Com que no és l’objecte d’aquest treball ho deixo aquí apuntat per futures investigacions.
+L’any 1971, Josep Brugal va presentar un projecte al concurs convocat pel Consell General del Principat d’Andorra per ampliar el santuari de la Mare de Déu de Meritxell. Enmig de tretze projectes presentats, el de Josep Brugal no va ser l’escollit. De tota manera, el santuari es va incendiar l’any 1972 i va quedar totalment destruït. Per reconstruir el santuari el Consell General d’Andorra va contractar un arquitecte que començava a ser molt conegut, Ricard Bofill, amb un projecte que va ser considerat per Josep Brugal com un plagi del seu projecte de 1971.  Segons la seva família l’arquitecte es va enfadar tant que va destruir les maquetes i els plànols del seu projecte per Meritxell.  Pràcticament, no es coneix cap més projecte de Josep Brugal a la Seu d’Urgell ni a Andorra. La meva hipòtesi és que després d’aquest episodi, no va voler continuar treballant al Pirineu. 
+Això no vol dir que acabes la seva vida laboral. Josep Brugal mantenia el seu despatx a Barcelona on treballava amb el seu fill i més endavant també amb el seu net. Durant aquest últim període de la seva vida professional va manifestar un gran interès per les noves tecnologies fins a tal punt que va decidir comprar un dels primers programes de disseny per al seu net que treballava amb ell al despatx. També va mantenir contactes al Pirineu en la supervisió d’antigues obres, com en el cas de l’església de Santa Magdalena a la Seu d’Urgell. Es va mantenir actiu fins als 88 anys.  De fet, fins a l’any de la seva defunció, el 5 d’agost de l’any 1999. 
