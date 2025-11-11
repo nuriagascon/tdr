@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "CAL MOLINES"
-image: "0.jpg"
+image: "5.jpg"
 position: [ 373086.23,4690667.52 ]
 ---
 
