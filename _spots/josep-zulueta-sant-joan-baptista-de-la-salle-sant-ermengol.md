@@ -1,7 +1,7 @@
 ---
 layout: patrimoni-details
 title: "EDIFICI PLURIFAMILIAR"
-image: "Centre_Historic.jpg"
+image: "DSC_0974.JPG"
 position: [ 373068.73,4690484.03 ]
 ---
 
