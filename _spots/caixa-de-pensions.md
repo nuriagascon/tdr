@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "CAIXA DE PENSIONS"
 image: "20250722151215256_0002.jpg"
-position: [ 1.459674899942919, 42.359267830334325 ]
+position: [ 373048.39,4690478.47 ]
 ---
 
 Edifici plurifamiliar de planta baixa i quatre pisos. Esta format per dues crugies unides en angle recte i aixamfranat a la cantonada dels carrers Sant Joan Baptista de La Salle i Josep Zulueta, on s’obren les façanes. Cada crugia presenta una coberta de pissarra de doble vessant. La façana visible des del carrer presenta a la planta baixa un revestiment de plaques de marbre blanc i al xamfrà una gran entrada rectangular amb una motllura, per donar accés a l’oficina bancària, i als habitatges dels pisos superiors s’alternen les balconades sobresortints amb paraments de maó. 
