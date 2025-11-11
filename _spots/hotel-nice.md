@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "HOTEL NICE"
 image: "mail.google.jpg"
-position: [ 1.459674899942919, 42.359267830334325 ]
+position: [ 373142.29,4690595.89 ]
 ---
 
 Edifici plurifamiliar de planta baixa, tres pisos i el terrat, actualment molt modificat. Originàriament a la planta baixa hi havia un local amb una entrada rectangular a la part esquerra. El primer i el segon pis, presentaven dues finestres centrals rectangulars i amb motllures flanquejades per dues tribunes de perfil trapezoidal amb finestres motllurades. Al tercer pis, les tribunes eren coronades per dos balcons on s’hi accedia a treves de dues portes rectangulars amb motllures que també flanquejaven dues finestres centrals.  Segons una fotografia de l’època, entre el segon i tercer pis hi havia una motllura llisa que separava aquests dos pisos formant una línia que creuava l’edifici horitzontalment. 
