@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "EDIFICI PLURIFAMILIAR"
 image: "DSC_0974.JPG"
-position: [ 373068.73,4690484.03 ]
+position: [ 1.458731, 42.356276 ]
 ---
 
 Edifici plurifamiliar de planta baixa i quatre pisos que ocupa una parcel·la de planta romboidal, la qual genera una certa dificultat a l’hora de dissenyar l’edifici. El conjunt està format per tres blocs o crugies que s’obren a un pati per la part interior i que per la part exterior tenen façana amb els carrers Sant Ermengol, Josep Zulueta i Sant Joan Baptista de la Salle, i configuren un xamfrà entre aquests dos últims carrers. Cada crugia presenta una coberta de pissarra de doble vessant.
