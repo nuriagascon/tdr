@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "ESGLESIA SANTA MAGDALENA"
 image: "DSC_0894.JPG"
-position: [ 372802.29,4690189.65 ]
+position: [ 1.455591, 42.353482 ]
 ---
 
 Església d’una sola nau, i capçalera plana al nord. A l’interior, l’àmbit presbiteral està separat de la resta del temple per un gran arc apuntat. El sostre interior està recobert amb parquet, i té un perfil triangular de diedres. Als peus s’hi troba l’entrada a l’església, on hi ha un cor d’obra en alt que s'obre a la nau a través d’un gran arc apuntat. Sota aquest cor hi han tres estances de les quals dues queden just als costats de l’entrada a l’església, la central és el vestíbul i a les laterals contenen una capella i les escales per accedir al cor. L’interior està revestit amb maons i té grans vidrieres allargades i culminades amb ulls de bou hexagonals, unes i altres perfilades amb plaques de marbre blanc i totes elles amb vitralls de colors. Les façanes exteriors son totes de maó i presenten contraforts de formigó. La façana principal presenta una gran franja central amb una creu llatina en relleu, que es el que més crida l’atenció de la façana. L’entrada a l'església té un pòrtic sostingut per parelles de pilars de maó, al qual s’hi accedeix per una sèrie d'escales. La coberta és de planxes d’alumini en doble vessant.
