@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "VIVER DE TRUITES I HABILITACIÓ DEL RESTAURANT DE L'HOTEL NICE"
 image: ""
-position: [373139.88,4690597.59 ]
+position: [ 1.459486, 42.357381 ]
 ---
 L’any següent del projecte anterior, quan el propietari va decidir convertir-lo en un hotel, va encomanar a Josep Brugal un projecte complementari per habilitar la planta baixa com a restaurant i construir un viver de truites al celler. Les truites s’havien posat de moda en aquell moment com a plat característic de la cuina de muntanya, molt apreciades per un turisme que començava a freqüentar al Pirineu. 
 
