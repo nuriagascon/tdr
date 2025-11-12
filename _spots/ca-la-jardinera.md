@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "CA LA JARDINERA"
 image: "DSC_0909.JPG"
-position: [ 373257.57,4690705.83 ]
+position: [ 1.460988, 42.358308 ]
 ---
 
 Edifici plurifamiliar entre mitgeres. Consta d’una planta baixa i tres pisos. A la planta baixa hi ha un local amb una entrada de forma rectangular que ocupa gran part de l’ample de la façana per accedir al local de la planta baixa, i al seu costat esquerre s’hi troba l’entrada al bloc de pisos, estreta i de forma rectangular. La primera planta presenta dues portes de forma rectangular que s’obren a una balconada amb barana de forja, que ocupa gairebé tota la amplada de la façana, i la segona i tercera planta tenen un parell de finestres cadascuna, de format rectangular.
