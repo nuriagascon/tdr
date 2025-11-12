@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "PARET DE TANCAMENT I REFORMA DE LA FAÇANA DE L'AGÈNCIA DE DUANES GALLART"
 image: "0.jpg"
-position: [ 372990.33,4690965.60 ]
+position: [ 1.457830, 42.360271 ]
 ---
 
 El projecte consisteix en un tancament perimetral d’una residència unifamiliar situada a la Seu d’Urgell, a la cruïlla de la carretera de Lleida amb la carretera d’Andorra, i dedicada a agència de duanes. També inclou la reforma de la part de la façana on hi ha l'accés a l’agència. El tancament es un sòcol construït amb granit sobre el qual s’aixeca una sèrie de pilars del mateix material que sostenen una reixa metàl·lica. La reforma de la façana consisteix amb l’afegit d’una marquesina amb estructura de formigó revestida amb granit i amb la retolació de l’empresa. 
