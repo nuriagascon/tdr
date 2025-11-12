@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "EDIFICI PER AL DR.BLANCH"
 image: ""
-position: [ 373084.72,4690751.69 ]
+position: [ 1.458873, 42.358657 ]
 ---
 
 Edifici plurifamiliar de planta baixa i dos pisos projectat l’any 1953. Mirant els plànols d’aquest edifici, no l’he sabut localitzar a la Seu, arribant a la conclusió de que aquest projecte no es va acabar duent a terme. 
