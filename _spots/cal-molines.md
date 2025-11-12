@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "CAL MOLINES"
 image: "IMG_2082.jpeg"
-position: [ 373086.23,4690667.52 ]
+position: [ 1.458916, 42.357940 ]
 ---
 
 Casa aïllada de planta baixa i un pis. La seva planta es quadrangular, i te una coberta de llosa de quàdruple vessant, coronada per una petita torre quadrangular, amb coberta piramidal de llosa. La façana principal, orientada a llevant presenta un cos central retirat de la línia de façana, que acull la porta principal i una terrassa al primer pis, sostinguda per dos parelles de pilars de secció quadrada. La façana sud presenta un cos sortit de planta semicircular que és una galeria interior de la casa. 
