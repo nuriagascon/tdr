@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "EDIFICI DE JOSEP NUÑEZ PALLEROLA"
 image: ""
-position: [ 373078.34,4690761.06 ]
+position: [ 1.458741, 42.358784 ]
 ---
 
 Edifici plurifamiliar amb planta baixa, dos pisos i golfes. A la planta baixa hi havia un local amb una entrada rectangular que ocupava la major part de l’amplària de la façana, a la banda dreta del local hi havia una finestra rectangular i a l’esquerra la porta d’accés a l’edifici. La primera i la segona planta tenien la mateixa distribució en façana, el cos central dels dos pisos configurava una tribuna amb finestres de perfil semicircular, i amb una finestra a cada costat. I per últim, el plànol no projecta cap finestra a les golfes. El teulat era de pissarra. 
