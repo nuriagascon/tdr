@@ -2,7 +2,7 @@
 layout: patrimoni-details
 title: "CAL FITER"
 image: "DSC_0895.JPG"
-position: [ 372941.06,4690552.29 ]
+position: [ 1.457170, 42.356853 ]
 ---
 
 Conjunt de dos habitatges unifamiliars adossats que ocupen una parcel·la rectangular formats per celler, dues plantes i golfes. El cos principal de l’edifici està disposat en paral·lel al carrer de Sant Ermengol, i presenta una coberta de pissarra de doble vessant. A la façana principal s’avancen dos cossos que contenen l’entrada de cadascun dels dos habitatges. Són dos cossos de planta quadrangular coberts amb coberta de pissarra de doble vessant disposada en sentit perpendicular a la coberta principal. A banda i banda de cadascun d’aquests cossos s’hi adossen dos cossos aixamfranats, d’una sola planta i coronats amb una terrassa amb barana de granit. el conjunt presenta grans finestrals rectangulars, i cada habitatge presenta una porta també de format rectangular amb marc de granit. La base de l’edifici esta recorreguda per un sòcol de granit que contrasta amb el color originàriament blanc dels dos habitatges. A les golfes, els quatre espais triangulars de la façana que queden a sota de la coberta, presenten un finestró central de forma quadrada que articula un conjunt de motllures pintades de color granat i disposades formant espais rectangulars entre elles que deixen veure un parament de maons en espiga. Sis mènsules de granit es distribueixen a la base de cadascun d’aquests espais triangulars.
